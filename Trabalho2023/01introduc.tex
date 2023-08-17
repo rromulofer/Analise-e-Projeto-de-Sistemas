@@ -10,35 +10,188 @@
 
 \textit{An\'{a}lise e Projeto de Sistemas} \'{e} uma disciplina orientada a descrever as duas primeiras etapas do Ciclo de Vida de Desenvolvimento de um Sistema (CVDS), neste caso, um sistema computacional.  As refer\^{e}ncias bibliogr\'{a}ficas b\'{a}sicas a serem consultadas s\~{a}o: \cite{Dennis2014}, \cite{Dennis2019} \cite{Gane1983} e \cite{Sommerville2011}. Como bibliografia complementar ser\~{a}o considerados: \cite{Satzinger2012}, \cite{Shelly2012}, \cite{Valacich2020}, \cite{Kendall2020}, \cite{Budgen2021} e \cite{Engholm2013}.
 
-Neste documento apresentamos, passo a passo,  as atividades relacionadas com a An\'{a}lise e Design do sistema....
+Neste documento apresentamos, passo a passo,  as atividades relacionadas com a An\'{a}lise e Design do sistema Sistema de Gerenciamento Para Concessionária De Motos.
 
 
  \section{Descri\c{c}\~{a}o do Sistema Computacional a desenvolver}
 
-        \subsection{abcde} 
+No cenário dinâmico das concessionárias de motos, a eficiência operacional e a gestão precisa desempenham um papel vital para atender às demandas dos clientes e garantir o sucesso comercial. Este documento explora detalhadamente a criação e implementação de um Sistema de Gerenciamento para Concessionária de Motos, projetado para otimizar e aprimorar todas as facetas das operações envolvidas.
 
-
-        \subsection{defgh}
+        \subsection{Benefícios e Objetivos} 
+		O Sistema de Gerenciamento visa simplificar e otimizar os processos cruciais dentro de uma concessionária de motos, proporcionando um ambiente eficiente para o gerenciamento de motos disponíveis para venda, informações detalhadas sobre clientes e rastreamento de compras. Os principais benefícios e objetivos incluem:
+		
+		\begin{itemize}
+			\item \textbf{Agilidade nas Vendas:}  Agilizar o processo de venda, desde a seleção da moto até a conclusão da compra, para uma experiência de satisfatória para o cliente.
+			
+			\item \textbf{Gestão de Estoque Eficiente:} Manter um registro detalhado das motos disponíveis, monitorando o estoque em tempo real e otimizando a reposição quando necessário.
+			
+			\item \textbf{Atendimento ao Cliente Aprimorado:} Possibilitar um atendimento personalizado, baseado em informações históricas do cliente, melhorando o relacionamento e a satisfação.
+			
+			\item \textbf{Rastreamento de Compras:} Acompanhar cada etapa das compras, desde a seleção até o pagamento, para um controle detalhado do fluxo de receita.
+			
+		\end{itemize}
+		 
+        \subsection{Visão Geral do Sistema}
+        O Sistema de Gerenciamento para Concessionárias de Motos representa um avanço significativo no modo como as concessionárias operam e interagem com clientes e produtos. Projetado para atender às necessidades específicas do setor de motocicletas, esse sistema oferece uma abordagem integrada e eficaz para otimizar as operações diárias e melhorar a experiência do cliente.
+        
+        Arquitetura Modular e Funcionalidades Centrais
+        O sistema é projetado com uma arquitetura modular que abrange todas as etapas do ciclo de vida das motos, desde o momento em que chegam ao estoque até a conclusão da venda. Suas funcionalidades centrais incluem:
+        
+        \begin{itemize}
+        	\item \textbf{Gerenciamento de Estoque Eficiente:} O sistema mantém um registro detalhado de todas as motos disponíveis para venda, permitindo um rastreamento preciso de cada unidade, suas características e status.
+        	
+        	\item \textbf{Perfil de Cliente e Histórico de Compras:} Cada cliente possui um perfil único no sistema, que armazena informações detalhadas, histórico de compras anteriores e preferências.
+        	
+        	\item \textbf{Processo Simplificado de Vendas:} Através de uma interface intuitiva, os funcionários da concessionária podem conduzir o processo de vendas de forma eficiente, desde a seleção da moto até o fechamento da compra.
+        	
+        	\item \textbf{Rastreamento de Compras e Pagamentos:} ada compra é registrada no sistema, permitindo um rastreamento detalhado das transações, métodos de pagamento e status.
+        	
+        	\item \textbf{Notificações e Lembretes:} O sistema envia notificações automáticas aos clientes sobre manutenções programadas, datas de pagamento e promoções especiais.
+        	
+        	Integração com Tecnologias Modernas
+        	Uma característica distintiva do sistema é sua capacidade de integração com tecnologias modernas, como dispositivos móveis e plataformas online. Isso permite que os funcionários acessem informações em tempo real, independentemente da localização, e oferece aos clientes uma experiência mais interativa e personalizada.
+        	
+        	Benefícios para a Concessionária e Clientes
+        	O Sistema de Gerenciamento para Concessionárias de Motos busca trazer benefícios tanto para a equipe da concessionária quanto para os clientes:
+        	
+        	\item \textbf{Eficiência Operacional:} Simplifica e agiliza os processos internos, permitindo que a equipe se concentre em proporcionar um atendimento excepcional.
+        	
+        	\item \textbf{Melhoria na Experiência do Cliente:} Oferece um atendimento personalizado, informações relevantes e processos de compra mais fluidos.
+        	
+        	\item \textbf{Tomada de Decisões Informadas:} Fornece dados e análises detalhados, ajudando a concessionária a tomar decisões estratégicas embasadas em informações concretas.
+        \end{itemize}
+        
 
  \section{Identificando as componentes do meu sistema}
 
-      Nesta se\c{c}\~{a}o ser\~{a}o incluidos lista de componentes (texto) bem como ilustra\c{c}\~{o}es de cada um (figuras ou imagens adequadas)
+	Nesta seção, exploraremos os diversos componentes que compõem o Sistema de Gerenciamento para Concessionária de Motos. Cada componente desempenha um papel vital no funcionamento integrado e eficiente do sistema, contribuindo para a otimização das operações diárias e o alcance dos objetivos de negócios.
      \subsection{Componente: Hardware}
-
-
+	O componente de hardware representa a infraestrutura física que sustenta o sistema. Isso inclui servidores de rede, computadores, dispositivos móveis e outros equipamentos utilizados pelos funcionários da concessionária para interagir com o sistema. Esses recursos de hardware garantem o acesso rápido e confiável às informações, possibilitando desde o acompanhamento do estoque até a conclusão das vendas.
+	
+	\textbf{Componentes de Hardware incluem:}
+	
+	\begin{itemize}
+		\item Servidores de rede
+		\item Computadores
+		\item Dispositivos móveis (smartphones, tablets)
+		\item Impressoras
+		\item Dispositivos de digitalização
+		\item Equipamentos de ponto de venda (POS)
+		\item Dispositivos de leitura de códigos de barras
+		\item Dispositivos de armazenamento (unidades de disco rígido, unidades de estado sólido)
+	\end{itemize}
+	
+	
      \subsection{Componente: Software}
-
+     
+     O componente de software engloba o conjunto de programas e aplicativos que formam a base funcional do Sistema de Gerenciamento. Ele inclui a interface do usuário, que permite aos funcionários navegar, inserir dados e executar tarefas de maneira eficiente. Além disso, o software compreende os algoritmos de processamento e a lógica de negócios que permitem a funcionalidade abrangente do sistema.
+     
+	\textbf{Componentes de Software abrangem:}
+	
+	\begin{itemize}
+		\item Interface do Usuário (UI)
+		\item Aplicativos de gerenciamento de estoque
+		\item Aplicativos de vendas
+		\item Sistemas de gestão de clientes (CRM)
+		\item Sistemas de gestão de pedidos
+		\item Sistemas de gerenciamento de documentos
+		\item Ferramentas de análise de dados
+		\item Algoritmos de processamento de dados
+	\end{itemize}
+	
+	
      \subsection{Componente: Pessoas}
+	As pessoas são um elemento vital em qualquer sistema, e no contexto do Sistema de Gerenciamento para Concessionária de Motos, representam a equipe da concessionária. Desde vendedores até gerentes e técnicos de atendimento, esses profissionais desempenham um papel fundamental na interação com o sistema, garantindo que todas as etapas das operações sejam realizadas com precisão e eficiência.
+	
+	\textbf{As Pessoas incluem:}
+	
+	\begin{itemize}
+		\item Vendedores
+		\item Gerentes
+		\item Técnicos de atendimento
+		\item Atendentes de suporte ao cliente
+		\item Especialistas em marketing
+		\item Administradores de sistema
+		\item Gerentes de banco de dados
+		\item Desenvolvedores de software
+	\end{itemize}
+
 
      \subsection{Componente: Banco de Dados}
+     O componente de banco de dados é o repositório central de todas as informações essenciais para a concessionária. Ele armazena dados detalhados sobre motos disponíveis, histórico de compras dos clientes, informações de contato e muito mais. O sistema de gerenciamento do banco de dados permite o armazenamento, recuperação e atualização eficiente dessas informações, garantindo a integridade dos dados e a precisão das operações.
+     
+	\textbf{Componentes de Banco de Dados abrangem:}
+	
+	\begin{itemize}
+		\item Banco de dados de motos disponíveis
+		\item Banco de dados de clientes
+		\item Banco de dados de compras e transações
+		\item Banco de dados de histórico de manutenção
+		\item Banco de dados de documentos (contratos, recibos)
+		\item Sistemas de gerenciamento de banco de dados (DBMS)
+		\item Sistemas de backup e recuperação
+	\end{itemize}
+
 
      \subsection{Componente: Documentos }
+     A gestão de documentos é essencial para a transparência e legalidade das operações da concessionária. O componente de documentos abrange a criação, armazenamento e organização de registros importantes, como contratos de compra, recibos e histórico de manutenção. A capacidade de acessar e compartilhar esses documentos de maneira eficaz contribui para a qualidade das operações e o cumprimento das regulamentações.
+     
+	\textbf{Documentos incluem:}
+	
+	\begin{itemize}
+		\item Contratos de compra
+		\item Recibos de pagamento
+		\item Registros de garantia
+		\item Histórico de manutenção de motos
+		\item Documentos de seguro
+		\item Manuais do proprietário
+		\item Documentos regulatórios
+		\item Relatórios de vendas
+	\end{itemize}
+
 
      \subsection{Componente: Metodologias ou Procedimentos}
+     As metodologias ou procedimentos são processos definidos que guiam as operações na concessionária. Esses métodos são incorporados ao sistema, garantindo a execução consistente e eficaz de tarefas, desde o processo de vendas até a manutenção das motos. Isso proporciona uma abordagem padronizada que garante a qualidade e eficiência das operações.
+     
+	\textbf{Metodologias e Procedimentos envolvem:}
+	
+	\begin{itemize}
+		\item Processo de vendas
+		\item Processo de atendimento ao cliente
+		\item Procedimentos de manutenção de motos
+		\item Fluxo de trabalho de estoque e reposição
+		\item Procedimentos de documentação e arquivamento
+		\item Métodos de pagamento e transação
+		\item Procedimentos de segurança de dados
+	\end{itemize}
+
 
      \subsection{Componente: Mobilidade}
+     A mobilidade é um aspecto cada vez mais relevante em sistemas modernos. O componente de mobilidade permite que a equipe da concessionária acesse e interaja com o sistema em movimento, por meio de dispositivos móveis como smartphones e tablets. Isso permite o acesso a informações atualizadas e a realização de tarefas importantes, independentemente da localização física.
+     
+	\textbf{Mobilidade engloba:}
+	\begin{itemize}
+		\item Aplicativos móveis para funcionários
+		\item Aplicativos móveis para clientes
+		\item Acesso remoto ao sistema
+		\item Notificações móveis
+		\item Conectividade sem fio (Wi-Fi, redes móveis)
+		\item Dispositivos móveis (smartphones, tablets)
+	\end{itemize}
+
 
      \subsection{Componente: Nuvem}
-
-
+     A computação em nuvem desempenha um papel vital na acessibilidade e armazenamento de dados. O componente de nuvem envolve o uso de serviços remotos para armazenar informações e executar tarefas, oferecendo escalabilidade e flexibilidade ao sistema. Isso permite que as informações sejam acessadas de qualquer lugar, facilitando a colaboração e o compartilhamento seguro de dados entre a equipe da concessionária.
+     
+	\textbf{Componentes de Nuvem incluem:}
+	
+	\begin{itemize}
+		\item Serviços de armazenamento em nuvem
+		\item Plataformas de hospedagem em nuvem
+		\item Sistemas de backup e recuperação em nuvem
+		\item Plataformas de colaboração em nuvem
+		\item Serviços de sincronização em nuvem
+		\item Segurança em nuvem e criptografia
+		\item Acesso remoto baseado em nuvem
+	\end{itemize}
 
