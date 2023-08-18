@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  17 AUG 2023 02:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  18 AUG 2023 00:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1410,26 +1410,26 @@ l.30 			\item \textbf
 
 
  <./Pictures//sistemas.png>]
-Underfull \vbox (badness 1127) has occurred while \output is active []
+Underfull \vbox (badness 3815) has occurred while \output is active []
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 	
+l.69 	
        [2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.117 	\end{itemize}
+l.116 	\end{itemize}
                      [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.171 
+l.170 
        [4]) (02Planejamento.tex [5] [6
 
 ]
@@ -1494,8 +1494,8 @@ raConcessionariaDeMotos.brf' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  33697 strings out of 478338
- 688018 string characters out of 2837173
- 1163511 words of memory out of 3000000
+ 688015 string characters out of 2837173
+ 1163510 words of memory out of 3000000
  51169 multiletter control sequences out of 15000+600000
  539027 words of font info for 232 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1507,7 +1507,7 @@ Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagd8a.pfb><C
 C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on 2023RomuloFernandes-SistemaDeGerenciamentoParaConcessionariaD
-eMotos.pdf (19 pages, 8594195 bytes).
+eMotos.pdf (19 pages, 8594163 bytes).
 PDF statistics:
  468 PDF objects out of 1000 (max. 8388607)
  73 named destinations out of 1000 (max. 500000)
