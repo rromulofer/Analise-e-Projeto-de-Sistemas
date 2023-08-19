@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  18 AUG 2023 00:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  19 AUG 2023 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1410,26 +1410,23 @@ l.30 			\item \textbf
 
 
  <./Pictures//sistemas.png>]
-Underfull \vbox (badness 3815) has occurred while \output is active []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.69 	
+l.71 	
        [2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 	\end{itemize}
+l.118 	\end{itemize}
                      [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.170 
+l.172 
        [4]) (02Planejamento.tex [5] [6
 
 ]
@@ -1493,11 +1490,11 @@ raConcessionariaDeMotos.brf' has not changed.
 (rerunfilecheck)             Checksum: ABB694CE30D1F111A91972D7D568B72F;430.
  ) 
 Here is how much of TeX's memory you used:
- 33697 strings out of 478338
- 688015 string characters out of 2837173
- 1163510 words of memory out of 3000000
+ 33694 strings out of 478338
+ 687988 string characters out of 2837173
+ 1163512 words of memory out of 3000000
  51169 multiletter control sequences out of 15000+600000
- 539027 words of font info for 232 fonts, out of 8000000 for 9000
+ 538897 words of font info for 230 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,92p,1066b,1167s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/
@@ -1507,7 +1504,7 @@ Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagd8a.pfb><C
 C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on 2023RomuloFernandes-SistemaDeGerenciamentoParaConcessionariaD
-eMotos.pdf (19 pages, 8594163 bytes).
+eMotos.pdf (19 pages, 8594329 bytes).
 PDF statistics:
  468 PDF objects out of 1000 (max. 8388607)
  73 named destinations out of 1000 (max. 500000)
