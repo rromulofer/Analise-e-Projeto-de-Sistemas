@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.22)  29 AUG 2023 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.22)  30 AUG 2023 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1437,34 +1437,64 @@ File: Pictures//planejamento.png Graphic file (type png)
 <use Pictures//planejamento.png>
 Package pdftex.def Info: Pictures//planejamento.png  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04076pt.
-[7 <./Pictures//planejamento.png>]) (03Analise.tex [8]
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[7 <./Pictures//planejamento.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+) (03Analise.tex [11] [12
+
+]
 Cap\'{\i }tulo 3.
-<Pictures//analise.png, id=245, 903.375pt x 352.31625pt>
+<Pictures//analise.png, id=262, 903.375pt x 352.31625pt>
 File: Pictures//analise.png Graphic file (type png)
 <use Pictures//analise.png>
 Package pdftex.def Info: Pictures//analise.png  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
-) (04Projeto.tex [9
-
- <./Pictures//analise.png>] [10
+) (04Projeto.tex [13 <./Pictures//analise.png>] [14
 
 ]
 Cap\'{\i }tulo 4.
-<Pictures//projeto.png, id=255, 289.08pt x 112.7412pt>
+<Pictures//projeto.png, id=271, 289.08pt x 112.7412pt>
 File: Pictures//projeto.png Graphic file (type png)
 <use Pictures//projeto.png>
 Package pdftex.def Info: Pictures//projeto.png  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04076pt.
-) (conclusao.tex [11 <./Pictures//projeto.png>] [12
+) (conclusao.tex [15 <./Pictures//projeto.png>] [16
 
 ]
 Cap\'{\i }tulo 5.
-<Pictures//conclusoes.png, id=264, 1204.5pt x 469.755pt>
+<Pictures//conclusoes.png, id=281, 1204.5pt x 469.755pt>
 File: Pictures//conclusoes.png Graphic file (type png)
 <use Pictures//conclusoes.png>
 Package pdftex.def Info: Pictures//conclusoes.png  used on input line 9.
 (pdftex.def)             Requested size: 597.50787pt x 233.03477pt.
-<Pictures//MeuSistema.jpg, id=265, 1060.56226pt x 430.0065pt>
+<Pictures//MeuSistema.jpg, id=282, 1060.56226pt x 430.0065pt>
 File: Pictures//MeuSistema.jpg Graphic file (type jpg)
 <use Pictures//MeuSistema.jpg>
 Package pdftex.def Info: Pictures//MeuSistema.jpg  used on input line 23.
@@ -1476,26 +1506,26 @@ Package pdftex.def Info: Pictures//MeuSistema.jpg  used on input line 23.
 s.brf'.
 
 
-[13 <./Pictures//conclusoes.png> <./Pictures//MeuSistema.jpg>] [14
+[17 <./Pictures//conclusoes.png> <./Pictures//MeuSistema.jpg>] [18
 
 ]
-<Pictures//referencias.png, id=275, 903.375pt x 352.31625pt>
+<Pictures//referencias.png, id=292, 903.375pt x 352.31625pt>
 File: Pictures//referencias.png Graphic file (type png)
 <use Pictures//referencias.png>
 Package pdftex.def Info: Pictures//referencias.png  used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
-) [15 <./Pictures//referencias.png>]
+) [19 <./Pictures//referencias.png>]
 (2023RomuloFernandes-SistemaDeGerenciamentoParaConcessionariaDeMotos.aux)
 Package rerunfilecheck Info: File `2023RomuloFernandes-SistemaDeGerenciamentoPa
 raConcessionariaDeMotos.brf' has not changed.
 (rerunfilecheck)             Checksum: ABB694CE30D1F111A91972D7D568B72F;430.
  ) 
 Here is how much of TeX's memory you used:
- 33697 strings out of 478338
- 688729 string characters out of 2836700
+ 33762 strings out of 478338
+ 689306 string characters out of 2836700
  1163512 words of memory out of 3000000
- 51169 multiletter control sequences out of 15000+600000
- 539091 words of font info for 232 fonts, out of 8000000 for 9000
+ 51176 multiletter control sequences out of 15000+600000
+ 541416 words of font info for 268 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,92p,1066b,1167s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
@@ -1506,9 +1536,9 @@ fb><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.p
 fb><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.
 pfb>
 Output written on 2023RomuloFernandes-SistemaDeGerenciamentoParaConcessionariaD
-eMotos.pdf (19 pages, 8594327 bytes).
+eMotos.pdf (23 pages, 8610271 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
+ 484 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
  77838 words of extra memory for PDF output out of 89155 (max. 10000000)
 
