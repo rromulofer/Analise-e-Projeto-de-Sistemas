@@ -148,19 +148,223 @@ Vale ressaltar que uma avaliação completa de custos e benefícios é dinâmica
 
 \section{Estudo de Viabilidade}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+O estudo de viabilidade é uma fase crítica no ciclo de vida do desenvolvimento de sistemas, onde se avalia se o projeto do Sistema de Gerenciamento de Concessionárias de Motos é viável sob diferentes perspectivas. Este processo é fundamental para evitar investimentos em projetos que não tragam benefícios significativos ou que não possam ser concluídos com sucesso. Vamos explorar mais profundamente os elementos chave deste estudo de viabilidade.
 
        \subsection{Calend\'{a}rio }
+       O calendário apresentado a seguir detalha o planejamento de atividades ao longo das próximas semanas, fornecendo uma visão abrangente do cronograma do projeto.
+\begin{enumerate}
+	\item Fase de Planejamento (Duração: 4 semanas)
+	\begin{itemize}
+		\item Identificação de Requisitos e Análise de Necessidades (2 semanas)
+		\item Definição de Escopo e Objetivos (1 semana)
+		\item Elaboração do Plano de Projeto (1 semana)
+	\end{itemize}
+
+	\item Fase de Design (Duração: 6 semanas)
+	\begin{itemize}
+		\item Design da Interface do Usuário (2 semanas)
+		\item Arquitetura de Software e Banco de Dados (2 semanas)
+		\item Especificações Técnicas (2 semanas)
+	\end{itemize}
+
+	\item Fase de Desenvolvimento (Duração: 12 semanas)
+\begin{itemize}
+	\item Desenvolvimento do Software (8 semanas)
+	\item Testes Unitários (2 semanas)
+	\item Integração de Módulos (2 semanas)
+\end{itemize}
+
+	\item Fase de Testes (Duração: 8 semanas)
+\begin{itemize}
+	\item Testes de Aceitação do Usuário (4 semanas)
+	\item Testes de Desempenho (2 semanas)
+	\item Correções e Ajustes (2 semanas)
+\end{itemize}
+
+	\item Fase de Implantação (Duração: 4 semanas)
+\begin{itemize}
+	\item Treinamento de Usuários (2 semanas)
+	\item Preparação para Lançamento (1 semana)
+	\item Implantação do Sistema (1 semana)
+\end{itemize}
+
+	\item Fase de Monitoramento e Manutenção (Duração: Contínua após a implantação)
+\begin{itemize}
+	\item Suporte Técnico (em curso)
+	\item Atualizações de Software (em curso)
+	\item Monitoramento de Desempenho (em curso)
+\end{itemize}
+
+\end{enumerate}
 
        \subsection{Cronograma }
-
+		O cronograma apresenta um roteiro claro para o desenvolvimento do Sistema de Gerenciamento de Concessionárias de Motos, detalhando as atividades ao longo das 37 semanas do projeto.
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=\textwidth]{cronograma.png}
+			\caption{Cronograma do Projeto}
+			\label{fig:cronograma}
+		\end{figure}
+		
        \subsection{Alternativas Tecnol\'{o}gicas }
-        Hardware, Software, Treinamento, etc...
-
-       \subsection{Or\c{c}amento }
-       Considere as Alternativas Tecnol\'{o}gicas para fazer pelo menos 3 or\c{c}amentos diferentes
-
-
+       Ao realizar um estudo de viabilidade para o Sistema de Gerenciamento de Concessionárias de Motos, é fundamental considerar diferentes alternativas tecnológicas que podem ser empregadas para atender aos objetivos do sistema. Essas alternativas podem variar em termos de arquitetura, plataformas, linguagens de programação, bancos de dados e outras tecnologias relevantes. No entanto, a análise de viabilidade não se limita apenas às decisões tecnológicas. Ela abrange uma avaliação holística, incluindo considerações de hardware, software, treinamento, manutenção e outros fatores operacionais.
+       
+       Aqui, exploraremos algumas das principais alternativas tecnológicas e operacionais a serem consideradas:
+       
+       \subsubsection{Arquitetura do Sistema}
+       
+       \begin{itemize}
+       	\item \textbf{Arquitetura Cliente-Servidor:} Nesse modelo, o sistema consiste em um servidor central que armazena dados e processa solicitações dos clientes. Os clientes, que podem ser aplicativos web ou móveis, interagem com o servidor para acessar informações e funcionalidades.
+       	\item \textbf{Arquitetura em Nuvem:} Utilizar serviços em nuvem, como AWS, Azure ou Google Cloud, oferece escalabilidade e flexibilidade. Isso pode reduzir custos com infraestrutura física e simplificar o gerenciamento de servidores.
+       \end{itemize}
+       
+       \subsubsection{Plataforma de Desenvolvimento}
+       
+       \begin{itemize}
+       	\item \textbf{Desenvolvimento Web:} A criação de um sistema baseado na web é uma escolha comum devido à acessibilidade. Frameworks como Django (Python) e Ruby on Rails (Ruby) podem ser considerados.
+       	\item \textbf{Desenvolvimento Móvel:} Se for necessário um aplicativo móvel, é preciso escolher entre desenvolver nativamente (iOS/Android), usar um framework multiplataforma como React Native ou optar por uma PWA (Progressive Web App) que funciona em navegadores móveis.
+       \end{itemize}
+       
+       \subsubsection{Banco de Dados}
+       
+       \begin{itemize}
+       	\item \textbf{Banco de Dados Relacional:} Como o PostgreSQL ou MySQL, é adequado para sistemas que exigem estrutura de dados altamente organizada.
+       	\item \textbf{Banco de Dados NoSQL:} Caso o sistema precise lidar com dados não estruturados ou semiestruturados, bancos de dados NoSQL, como MongoDB ou Cassandra, podem ser preferíveis.
+       \end{itemize}
+       
+       \subsubsection{Tecnologias de Front-End}
+       
+       \begin{itemize}
+       	\item \textbf{HTML, CSS e JavaScript:} Essas são as tecnologias fundamentais para desenvolver interfaces de usuário para aplicativos web.
+       	\item \textbf{Frameworks Front-End:} Utilizar um framework como React, Angular ou Vue.js pode acelerar o desenvolvimento de interfaces ricas e interativas.
+       \end{itemize}
+       
+       \subsubsection{Segurança}
+       
+       \begin{itemize}
+       	\item \textbf{HTTPS e SSL/TLS:} A segurança é crítica, especialmente ao lidar com dados sensíveis. A implementação de protocolos de segurança, como HTTPS, é essencial.
+       	\item \textbf{Autenticação e Autorização:} Mecanismos robustos de autenticação de usuário e controle de acesso devem ser considerados.
+       \end{itemize}
+       
+       \subsubsection{Operacionais}
+       
+       \begin{itemize}
+       	\item \textbf{Hardware e Infraestrutura:} Avaliação e seleção de hardware adequado, servidores, redes e outros recursos de infraestrutura.
+       	\item \textbf{Software e Licenças:} Consideração das licenças de software necessárias e custos associados.
+       	\item \textbf{Treinamento da Equipe:} Planejamento para treinar a equipe no uso eficaz do sistema.
+       	\item \textbf{Manutenção e Suporte:} Estratégias para manter o sistema atualizado, corrigir erros e oferecer suporte técnico.
+       	\item \textbf{Estratégia de Backup e Recuperação:} Implementação de práticas para proteger dados e garantir a recuperação em caso de falhas.
+       	\item \textbf{Continuidade de Negócios:} Planos para garantir a disponibilidade contínua do sistema, mesmo em situações adversas.
+       \end{itemize} 
+    
+	       \subsection{Or\c{c}amento }
+	\begin{itemize}
+		\item \textbf{Arquitetura Cliente-Servidor:} Nesse modelo, o sistema consiste em um servidor central que armazena dados e processa solicitações dos clientes. Os clientes, que podem ser aplicativos web ou móveis, interagem com o servidor para acessar informações e funcionalidades.
+		
+		\begin{itemize}
+			\item \textbf{Orçamento 1 (Cliente-Servidor Local):}
+			\begin{itemize}
+				\item Hardware de servidor local: R\$ 15.000
+				\item Software de servidor: R\$ 5.000
+				\item Desenvolvimento de aplicativos cliente: R\$ 20.000
+				\item Treinamento da equipe: R\$ 8.000
+				\item Manutenção anual: R\$ 6.000
+			\end{itemize}
+			\item \textbf{Orçamento 2 (Cliente-Servidor em Nuvem):}
+			\begin{itemize}
+				\item Serviços de nuvem (anual): R\$ 25.000
+				\item Desenvolvimento de aplicativos cliente: R\$ 20.000
+				\item Treinamento da equipe: R\$ 8.000
+				\item Manutenção anual: R\$ 6.000
+			\end{itemize}
+			\item \textbf{Orçamento 3 (Híbrido - Local e Nuvem):}
+			\begin{itemize}
+				\item Hardware de servidor local: R\$ 15.000
+				\item Serviços de nuvem (anual): R\$ 15.000
+				\item Software de servidor: R\$ 5.000
+				\item Desenvolvimento de aplicativos cliente: R\$ 20.000
+				\item Treinamento da equipe: R\$ 8.000
+				\item Manutenção anual: R\$ 6.000
+			\end{itemize}
+		\end{itemize}
+		
+		\item \textbf{Arquitetura em Nuvem:} Utilizar serviços em nuvem, como AWS, Azure ou Google Cloud, oferece escalabilidade e flexibilidade. Isso pode reduzir custos com infraestrutura física e simplificar o gerenciamento de servidores.
+		
+		\begin{itemize}
+			\item \textbf{Orçamento 1 (Nuvem Principal):}
+			\begin{itemize}
+				\item Serviços de nuvem (anual): R\$ 30.000
+				\item Desenvolvimento e manutenção: R\$ 25.000
+				\item Treinamento da equipe: R\$ 8.000
+			\end{itemize}
+			\item \textbf{Orçamento 2 (Diversificação de Nuvens):}
+			\begin{itemize}
+				\item Serviços de nuvem (anual - múltiplas plataformas): R\$ 35.000
+				\item Desenvolvimento e manutenção: R\$ 25.000
+				\item Treinamento da equipe: R\$ 8.000
+			\end{itemize}
+			\item \textbf{Orçamento 3 (Nuvem Híbrida):}
+			\begin{itemize}
+				\item Serviços de nuvem (anual): R\$ 20.000
+				\item Hardware de servidor local: R\$ 10.000
+				\item Desenvolvimento e manutenção: R\$ 25.000
+				\item Treinamento da equipe: R\$ 8.000
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
+	
+	\begin{itemize}
+		\item \textbf{Desenvolvimento Web:} A criação de um sistema baseado na web é uma escolha comum devido à acessibilidade. Frameworks como Django (Python) e Ruby on Rails (Ruby) podem ser considerados.
+		
+		\begin{itemize}
+			\item \textbf{Orçamento 1 (Django - Python):}
+			\begin{itemize}
+				\item Desenvolvimento web usando Django: R\$ 40.000
+				\item Treinamento da equipe: R\$ 8.000
+				\item Manutenção anual: R\$ 10.000
+			\end{itemize}
+			
+			\item \textbf{Orçamento 2 (Ruby on Rails - Ruby):}
+			\begin{itemize}
+				\item Desenvolvimento web usando Ruby on Rails: R\$ 45.000
+				\item Treinamento da equipe: R\$ 8.000
+				\item Manutenção anual: R\$ 12.000
+			\end{itemize}
+			
+			\item \textbf{Orçamento 3 (Customizado - PHP):}
+			\begin{itemize}
+				\item Desenvolvimento web personalizado (PHP): R\$ 35.000
+				\item Treinamento da equipe: R\$ 8.000
+				\item Manutenção anual: R\$ 8.000
+			\end{itemize}
+		\end{itemize}
+		
+		\item \textbf{Desenvolvimento Móvel:} Se for necessário um aplicativo móvel, é preciso escolher entre desenvolver nativamente (iOS/Android), usar um framework multiplataforma como React Native ou optar por uma PWA (Progressive Web App) que funciona em navegadores móveis.
+		
+		\begin{itemize}
+			\item \textbf{Orçamento 1 (Desenvolvimento Nativo):}
+			\begin{itemize}
+				\item Desenvolvimento de aplicativo móvel nativo (iOS/Android): R\$ 60.000
+				\item Treinamento da equipe: R\$ 8.000
+				\item Manutenção anual: R\$ 15.000
+			\end{itemize}
+			
+			\item \textbf{Orçamento 2 (React Native):}
+			\begin{itemize}
+				\item Desenvolvimento de aplicativo usando React Native: R\$ 50.000
+				\item Treinamento da equipe: R\$ 8.000
+				\item Manutenção anual: R\$ 12.000
+			\end{itemize}
+			
+			\item \textbf{Orçamento 3 (PWA - Progressive Web App):}
+			\begin{itemize}
+				\item Desenvolvimento de PWA: R\$ 45.000
+				\item Treinamento da equipe: R\$ 8.000
+				\item Manutenção anual: R\$ 10.000
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
 
        \subsection{Resumo e Recomenda\c{c}\~{o}es}
 
