@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.22)  11 SEP 2023 14:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.22)  12 SEP 2023 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1475,15 +1475,11 @@ Package pdftex.def Info: Pictures//cronograma.png  used on input line 205.
 (pdftex.def)             Requested size: 426.79135pt x 101.71379pt.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 215.
- [12 <./Pictures//cronograma.png>] [13]
-Underfull \vbox (badness 2495) has occurred while \output is active []
-
- [14])
-(03Analise.tex [15] [16
+ [12 <./Pictures//cronograma.png>] [13] [14]) (03Analise.tex [15] [16
 
 ]
 Cap\'{\i }tulo 3.
-<Pictures//analise.png, id=294, 903.375pt x 352.31625pt>
+<Pictures//analise.png, id=300, 903.375pt x 352.31625pt>
 File: Pictures//analise.png Graphic file (type png)
 <use Pictures//analise.png>
 Package pdftex.def Info: Pictures//analise.png  used on input line 8.
@@ -1492,7 +1488,7 @@ Package pdftex.def Info: Pictures//analise.png  used on input line 8.
 
 ]
 Cap\'{\i }tulo 4.
-<Pictures//projeto.png, id=303, 289.08pt x 112.7412pt>
+<Pictures//projeto.png, id=309, 289.08pt x 112.7412pt>
 File: Pictures//projeto.png Graphic file (type png)
 <use Pictures//projeto.png>
 Package pdftex.def Info: Pictures//projeto.png  used on input line 8.
@@ -1501,12 +1497,12 @@ Package pdftex.def Info: Pictures//projeto.png  used on input line 8.
 
 ]
 Cap\'{\i }tulo 5.
-<Pictures//conclusoes.png, id=312, 1204.5pt x 469.755pt>
+<Pictures//conclusoes.png, id=318, 1204.5pt x 469.755pt>
 File: Pictures//conclusoes.png Graphic file (type png)
 <use Pictures//conclusoes.png>
 Package pdftex.def Info: Pictures//conclusoes.png  used on input line 9.
 (pdftex.def)             Requested size: 597.50787pt x 233.03477pt.
-<Pictures//MeuSistema.jpg, id=313, 1060.56226pt x 430.0065pt>
+<Pictures//MeuSistema.jpg, id=319, 1060.56226pt x 430.0065pt>
 File: Pictures//MeuSistema.jpg Graphic file (type jpg)
 <use Pictures//MeuSistema.jpg>
 Package pdftex.def Info: Pictures//MeuSistema.jpg  used on input line 23.
@@ -1521,7 +1517,7 @@ os.brf'.
 [21 <./Pictures//conclusoes.png> <./Pictures//MeuSistema.jpg>] [22
 
 ]
-<Pictures//referencias.png, id=324, 903.375pt x 352.31625pt>
+<Pictures//referencias.png, id=330, 903.375pt x 352.31625pt>
 File: Pictures//referencias.png Graphic file (type png)
 <use Pictures//referencias.png>
 Package pdftex.def Info: Pictures//referencias.png  used on input line 1.
@@ -1533,24 +1529,28 @@ raConcessionariasDeMotos.brf' has not changed.
 (rerunfilecheck)             Checksum: ABB694CE30D1F111A91972D7D568B72F;430.
  ) 
 Here is how much of TeX's memory you used:
- 33825 strings out of 478338
- 690108 string characters out of 2836700
+ 33832 strings out of 478338
+ 690183 string characters out of 2836700
  1164563 words of memory out of 3000000
  51193 multiletter control sequences out of 15000+600000
  547177 words of font info for 287 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,92p,1067b,1167s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagd8a.pfb>
-<C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.p
-fb><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.p
-fb><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.p
-fb><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.
-pfb>
+
+pdfTeX warning (dest): name{chapter*.9} has been referenced but does not exist,
+ replaced by a fixed one
+
+{C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/U
+sers/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagd8a.pfb><C
+:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb
+><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb
+><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb
+><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pf
+b>
 Output written on 2023RomuloFernandes-SistemaDeGerenciamentoParaConcessionarias
-DeMotos.pdf (27 pages, 8631439 bytes).
+DeMotos.pdf (27 pages, 8632375 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
+ 527 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
  83987 words of extra memory for PDF output out of 89155 (max. 10000000)
 
