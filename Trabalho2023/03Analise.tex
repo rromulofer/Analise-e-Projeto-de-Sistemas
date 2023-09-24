@@ -7,12 +7,611 @@
 \chapterimage{analise.png} % Table of contents heading image
 \chapter{Etapa de An\'{a}lise}
 
-Neste cap\'{\i}tulo descrevemos...
-
-
 
 \section{Requisitos do Sistema}
 
+\subsubsection{Requisito 1: Controle de Estoque}
+\textbf{Definição:} O sistema deve permitir o controle de estoque de motos e peças de reposição, monitorando a quantidade atual disponível, entrada e saída de itens.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 1.1. Manter um registro atualizado dos itens em estoque.
+	\item 1.2. Registrar a entrada de novos itens no estoque.
+	\item 1.3. Registrar a saída de itens do estoque, seja por vendas ou outras razões.
+	\item 1.4. Alertar quando a quantidade de um item atingir um nível mínimo.
+\end{itemize}
+
+\subsubsection{Requisito 2: Impressão de Relatórios}
+\textbf{Definição:} O sistema deve possibilitar a geração e impressão de relatórios, como relatórios de vendas, inventário de estoque e desempenho do sistema.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 2.1. Oferecer opções para selecionar o tipo de relatório desejado.
+	\item 2.2. Gerar o relatório com base nos dados armazenados no sistema.
+	\item 2.3. Permitir visualizar o relatório antes da impressão.
+	\item 2.4. Disponibilizar a opção de imprimir o relatório em uma impressora designada.
+\end{itemize}
+
+\subsubsection{Requisito 3: Gestão de Vendas}
+\textbf{Definição:} O sistema deve permitir a realização de vendas de motos e peças de reposição, registrando informações do cliente, produtos vendidos e valores.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 3.1. Registrar informações do cliente, como nome, contato e endereço.
+	\item 3.2. Selecionar produtos a serem vendidos, incluindo motos e peças de reposição.
+	\item 3.3. Calcular o valor total da venda com base nos produtos selecionados.
+	\item 3.4. Emitir um recibo para o cliente após a conclusão da venda.
+\end{itemize}
+
+\subsubsection{Requisito 4: Cadastro de Clientes}
+\textbf{Definição:} O sistema deve permitir o cadastro e gerenciamento de informações de clientes, incluindo nome, contato e histórico de compras.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 4.1. Inserir e armazenar informações do cliente no banco de dados.
+	\item 4.2. Atualizar dados de clientes existentes conforme necessário.
+	\item 4.3. Exibir o histórico de compras de um cliente quando solicitado.
+\end{itemize}
+
+\subsubsection{Requisito 5: Cadastro de Motos}
+\textbf{Definição:} O sistema deve permitir o cadastro de informações detalhadas sobre motos disponíveis para venda, incluindo modelo, marca, preço e especificações técnicas.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 5.1. Registrar informações completas sobre cada modelo de moto disponível.
+	\item 5.2. Associar preços correspondentes a cada moto.
+	\item 5.3. Incluir especificações técnicas, como potência do motor e capacidade do tanque.
+\end{itemize}
+
+\subsubsection{Requisito 6: Acesso ao Sistema}
+\textbf{Definição:} O sistema deve fornecer autenticação segura para garantir que apenas usuários autorizados possam acessá-lo.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 6.1. Apresentar uma tela de login para entrada no sistema.
+	\item 6.2. Solicitar nome de usuário e senha para autenticação.
+	\item 6.3. Verificar as credenciais fornecidas em relação aos registros de usuários autorizados.
+	\item 6.4. Conceder acesso ao sistema somente após a autenticação bem-sucedida.
+\end{itemize}
+
+\subsubsection{Requisito 7: Controle de Acesso}
+\textbf{Definição:} O sistema deve permitir a definição de diferentes níveis de acesso para usuários, controlando quais recursos e funcionalidades eles podem utilizar.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 7.1. Criar perfis de usuário com níveis de acesso específicos.
+	\item 7.2. Associar cada usuário a um perfil de acesso.
+	\item 7.3. Restringir o acesso a determinadas áreas do sistema com base no perfil do usuário.
+\end{itemize}
+
+\subsubsection{Requisito 8: Registro de Manutenção}
+\textbf{Definição:} O sistema deve permitir o registro de manutenções realizadas em motos, incluindo detalhes sobre serviços, peças substituídas e custos.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 8.1. Registrar detalhes da manutenção, como data, tipo de serviço e peças envolvidas.
+	\item 8.2. Incluir o custo total da manutenção.
+	\item 8.3. Associar a manutenção a uma moto específica para histórico de manutenção.
+\end{itemize}
+
+\subsubsection{Requisito 9: Reservas de Serviço}
+\textbf{Definição:} O sistema deve permitir que os clientes façam reservas para serviços de manutenção e reparo em suas motos.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 9.1. Aceitar solicitações de reserva de serviço dos clientes.
+	\item 9.2. Agendar datas e horários para as reservas.
+	\item 9.3. Notificar os clientes sobre datas e horários agendados.
+	\item 9.4. Registrar detalhes sobre os serviços de manutenção solicitados.
+\end{itemize}
+
+\subsubsection{Requisito 10: Painel de Administração}
+\textbf{Definição:} O sistema deve incluir um painel de administração que permita aos administradores gerenciar usuários, produtos, vendas e relatórios.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 10.1. Fornecer acesso exclusivo a administradores autorizados.
+	\item 10.2. Permitir adicionar, editar e excluir registros de usuários e produtos.
+	\item 10.3. Facilitar a geração de relatórios sobre vendas e desempenho.
+\end{itemize}
+
+\subsubsection{Requisito 11: Notificações de Estoque}
+\textbf{Definição:} O sistema deve ser capaz de enviar notificações aos administradores quando a quantidade de um item em estoque atingir um nível mínimo.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 11.1. Monitorar continuamente a quantidade de itens em estoque.
+	\item 11.2. Enviar notificações por email ou mensagem interna aos administradores quando necessário.
+	\item 11.3. Incluir informações sobre o item e a quantidade atual no aviso.
+\end{itemize}
+
+\subsubsection{Requisito 12: Histórico de Vendas}
+\textbf{Definição:} O sistema deve manter um registro histórico de todas as transações de vendas, permitindo consulta e análise.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 12.1. Armazenar informações detalhadas sobre cada venda, incluindo data, produtos vendidos e valores.
+	\item 12.2. Oferecer uma função de pesquisa para recuperar vendas específicas com base em critérios como data ou cliente.
+\end{itemize}
+
+\subsubsection{Requisito 13: Controle de Avarias}
+\textbf{Definição:} O sistema deve permitir o registro de motos danificadas ou com defeito, incluindo detalhes sobre o problema e ações tomadas.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 13.1. Registrar informações sobre a moto avariada, como modelo e número de série.
+	\item 13.2. Descrever o problema ou defeito encontrado na moto.
+	\item 13.3. Registrar ações de reparo ou manutenção realizadas na moto.
+\end{itemize}
+
+\subsubsection{Requisito 14: Promoções e Descontos}
+\textbf{Definição:} O sistema deve permitir a criação e gerenciamento de promoções e descontos em produtos, a fim de atrair clientes.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 14.1. Criar promoções com descontos específicos em motos ou peças de reposição.
+	\item 14.2. Associar promoções a produtos específicos.
+	\item 14.3. Exibir os preços promocionais nos produtos durante o período de promoção.
+\end{itemize}
+
+\subsubsection{Requisito 15: Integração de Pagamento Online}
+\textbf{Definição:} O sistema deve oferecer a opção de pagamento online para os clientes que desejam comprar produtos pela internet.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 15.1. Integrar um sistema de pagamento seguro, como cartões de crédito ou PayPal.
+	\item 15.2. Permitir que os clientes escolham a opção de pagamento online durante o checkout.
+	\item 15.3. Garantir que as transações online sejam seguras e protegidas contra fraudes.
+\end{itemize}
+
+\subsubsection{Requisito 16: Gestão de Fornecedores}
+\textbf{Definição:} O sistema deve incluir um módulo de gestão de fornecedores para rastrear informações de fornecedores, pedidos e prazos de entrega.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 16.1. Manter um registro de fornecedores, incluindo nome, contato e informações de pagamento.
+	\item 16.2. Registrar pedidos de produtos a fornecedores.
+	\item 16.3. Monitorar prazos de entrega e receber notificações sobre atrasos.
+\end{itemize}
+
+\subsubsection{Requisito 17: Suporte Multilíngue}
+\textbf{Definição:} O sistema deve ser capaz de oferecer suporte a múltiplos idiomas, permitindo que os clientes escolham o idioma de sua preferência.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 17.1. Disponibilizar uma lista de idiomas suportados para os clientes.
+	\item 17.2. Permitir que os clientes selecionem seu idioma preferido no sistema.
+	\item 17.3. Traduzir automaticamente o conteúdo do sistema para o idioma escolhido pelo cliente.
+\end{itemize}
+
+\subsubsection{Requisito 18: Relatórios de Desempenho}
+\textbf{Definição:} O sistema deve gerar relatórios de desempenho que incluam métricas como vendas mensais, estoque atual e análises de tendências.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 18.1. Criar relatórios automáticos que apresentem informações relevantes sobre o desempenho do negócio.
+	\item 18.2. Incluir gráficos e gráficos para visualização de dados.
+	\item 18.3. Permitir que os administradores personalizem os relatórios de acordo com suas necessidades.
+\end{itemize}
+
+\subsubsection{Requisito 19: Backup e Recuperação de Dados}
+\textbf{Definição:} O sistema deve implementar rotinas de backup regulares para proteger os dados do sistema contra perdas ou danos.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 19.1. Realizar backups automáticos diários de todos os dados do sistema.
+	\item 19.2. Armazenar cópias de backup em locais seguros e fora das instalações.
+	\item 19.3. Estabelecer procedimentos de recuperação de dados para restaurar informações em caso de falha.
+\end{itemize}
+
+\subsubsection{Requisito 20: Atualizações de Software}
+\textbf{Definição:} O sistema deve permitir atualizações de software para adicionar novos recursos, corrigir bugs e melhorar a segurança.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 20.1. Notificar os administradores sobre novas atualizações disponíveis.
+	\item 20.2. Facilitar o processo de atualização, permitindo que os administradores apliquem atualizações com facilidade.
+	\item 20.3. Realizar testes rigorosos em atualizações antes de implantá-las no ambiente de produção.
+\end{itemize}
+
+\subsubsection{Requisito 21: Autenticação de Dois Fatores}
+\textbf{Definição:} O sistema deve oferecer autenticação de dois fatores (2FA) como uma opção de segurança adicional para os usuários.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 21.1. Permitir que os usuários habilitem a autenticação de dois fatores em suas contas.
+	\item 21.2. Utilizar métodos de autenticação, como códigos de verificação ou notificações por aplicativo móvel.
+	\item 21.3. Exigir a autenticação de dois fatores sempre que os usuários fizerem login em dispositivos não reconhecidos.
+\end{itemize}
+
+\subsubsection{Requisito 22: Gestão de Devoluções}
+\textbf{Definição:} O sistema deve permitir que os clientes solicitem devoluções de produtos e rastreiem o status dessas devoluções.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 22.1. Oferecer aos clientes a opção de iniciar solicitações de devolução através do sistema.
+	\item 22.2. Registrar detalhes sobre o motivo da devolução e os produtos envolvidos.
+	\item 22.3. Manter um histórico das solicitações de devolução e seu status (pendente, aprovado, concluído, etc.).
+\end{itemize}
+
+\subsubsection{Requisito 23: Gestão de Créditos e Reembolsos}
+\textbf{Definição:} O sistema deve suportar a emissão de créditos e reembolsos aos clientes quando necessário.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 23.1. Permitir que os administradores emitam créditos ou processem reembolsos para clientes de acordo com a política da empresa.
+	\item 23.2. Manter um registro detalhado de todas as transações de créditos e reembolsos.
+	\item 23.3. Notificar automaticamente os clientes sobre a emissão de créditos ou reembolsos.
+\end{itemize}
+
+\subsubsection{Requisito 24: Integração com Plataformas de Mídia Social}
+\textbf{Definição:} O sistema deve permitir a integração com plataformas de mídia social para compartilhamento de produtos e promoções.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 24.1. Incluir botões de compartilhamento para redes sociais em páginas de produtos.
+	\item 24.2. Permitir que os clientes compartilhem produtos e promoções em suas contas de mídia social.
+	\item 24.3. Rastrear métricas de compartilhamento e engajamento social.
+\end{itemize}
+
+\subsubsection{Requisito 25: Personalização de Produtos}
+\textbf{Definição:} O sistema deve permitir que os clientes personalizem produtos, como motos, escolhendo cores, acessórios, etc.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 25.1. Oferecer uma interface de personalização intuitiva para os clientes escolherem opções de personalização.
+	\item 25.2. Atualizar o preço automaticamente com base nas opções de personalização escolhidas.
+	\item 25.3. Transmitir as opções de personalização aos departamentos de produção e estoque para atender às solicitações dos clientes.
+\end{itemize}
+
+\subsubsection{Requisito 26: Comparação de Produtos}
+\textbf{Definição:} O sistema deve permitir que os clientes comparem especificações e preços de diferentes motos ou produtos.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 26.1. Exibir uma tabela de comparação que permite aos clientes selecionar várias motos ou produtos para comparação.
+	\item 26.2. Mostrar informações detalhadas, como especificações técnicas, preço e disponibilidade, lado a lado para facilitar a comparação.
+\end{itemize}
+
+\subsubsection{Requisito 27: Suporte a Programas de Fidelidade}
+\textbf{Definição:} O sistema deve oferecer suporte a programas de fidelidade, permitindo que os clientes acumulem pontos e recebam recompensas.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 27.1. Permitir que os clientes se inscrevam em programas de fidelidade.
+	\item 27.2. Atribuir pontos aos clientes com base em suas compras e interações.
+	\item 27.3. Oferecer recompensas, descontos ou produtos gratuitos em troca de pontos acumulados.
+\end{itemize}
+
+\subsubsection{Requisito 28: Acesso a Relatórios Financeiros}
+\textbf{Definição:} O sistema deve fornecer acesso a relatórios financeiros detalhados para análise e tomada de decisões.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 28.1. Gerar relatórios financeiros, incluindo balanços, demonstrações de resultados e análises de fluxo de caixa.
+	\item 28.2. Disponibilizar relatórios atualizados em tempo real.
+	\item 28.3. Restringir o acesso a relatórios financeiros a usuários autorizados, como contadores e gerentes financeiros.
+\end{itemize}
+
+\subsubsection{Requisito 29: Configuração de Impostos e Taxas}
+\textbf{Definição:} O sistema deve permitir que os administradores configurem impostos e taxas aplicáveis a vendas e transações.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 29.1. Oferecer uma interface de configuração para definir taxas de imposto por região ou país.
+	\item 29.2. Aplicar automaticamente impostos e taxas aos produtos com base nas configurações definidas.
+	\item 29.3. Incluir a taxa de imposto no processo de checkout para transparência para os clientes.
+\end{itemize}
+
+\subsubsection{Requisito 30: Suporte a Chat Online}
+\textbf{Definição:} O sistema deve oferecer suporte a um sistema de chat online para que os clientes possam obter assistência em tempo real.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 30.1. Integrar um sistema de chat online que permita aos clientes iniciar conversas com agentes de suporte.
+	\item 30.2. Rastrear o histórico de conversas para referência futura.
+	\item 30.3. Notificar os agentes de suporte quando os clientes necessitarem de assistência.
+\end{itemize}
+
+\subsubsection{Requisito 31: Gestão de Motos Usadas}
+\textbf{Definição:} O sistema deve permitir o cadastramento, venda e gerenciamento de motos usadas.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 31.1. Oferecer a opção de cadastrar motos usadas no sistema, incluindo informações como modelo, ano, quilometragem, etc.
+	\item 31.2. Permitir que os clientes visualizem e comprem motos usadas através da plataforma.
+	\item 31.3. Manter um registro detalhado de todas as motos usadas, incluindo histórico de manutenção e preço.
+\end{itemize}
+
+\subsubsection{Requisito 32: Integração com Sistemas de Pagamento}
+\textbf{Definição:} O sistema deve integrar-se a sistemas de pagamento online para facilitar transações financeiras.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 32.1. Oferecer opções de pagamento online, como cartões de crédito, PayPal, etc.
+	\item 32.2. Garantir que todas as transações financeiras sejam seguras e protegidas.
+	\item 32.3. Registrar detalhes de transações financeiras para fins de contabilidade.
+\end{itemize}
+
+\subsubsection{Requisito 33: Gerenciamento de Ofertas e Promoções}
+\textbf{Definição:} O sistema deve permitir a criação e gerenciamento de ofertas, descontos e promoções especiais.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 33.1. Permitir que os administradores criem ofertas especiais, como descontos em produtos ou pacotes promocionais.
+	\item 33.2. Definir regras de validade para as ofertas, incluindo datas de início e término.
+	\item 33.3. Exibir ofertas especiais para os clientes de forma proeminente no site.
+\end{itemize}
+
+\subsubsection{Requisito 34: Rastreamento de Entrega de Pedidos}
+\textbf{Definição:} O sistema deve permitir que os clientes rastreiem o status e a entrega de seus pedidos.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 34.1. Fornecer informações de rastreamento para cada pedido, incluindo data de envio, transportadora e previsão de entrega.
+	\item 34.2. Enviar notificações por e-mail ou SMS aos clientes com atualizações sobre o status da entrega.
+	\item 34.3. Permitir que os clientes entrem em contato com a transportadora em caso de problemas na entrega.
+\end{itemize}
+
+\subsubsection{Requisito 35: Suporte a Múltiplos Idiomas}
+\textbf{Definição:} O sistema deve oferecer suporte a múltiplos idiomas para atender a uma base de clientes global.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 35.1. Permitir que os clientes escolham seu idioma preferido ao acessar o site.
+	\item 35.2. Traduzir automaticamente o conteúdo do site com base na seleção do idioma do cliente.
+	\item 35.3. Fornecer uma interface de administração para adicionar novos idiomas e gerenciar traduções.
+\end{itemize}
+
+\subsubsection{Requisito 36: Gerenciamento de Avaliações e Comentários}
+\textbf{Definição:} O sistema deve permitir que os clientes avaliem produtos e deixem comentários.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 36.1. Permitir que os clientes avaliem produtos em uma escala de classificação.
+	\item 36.2. Permitir que os clientes escrevam comentários detalhados sobre produtos.
+	\item 36.3. Moderar e aprovar comentários antes que eles sejam exibidos publicamente.
+\end{itemize}
+
+\subsubsection{Requisito 37: Histórico de Compras}
+\textbf{Definição:} O sistema deve manter um histórico completo de todas as compras dos clientes.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 37.1. Armazenar registros de todas as compras, incluindo produtos adquiridos, data e valor.
+	\item 37.2. Permitir que os clientes acessem seu histórico de compras a qualquer momento.
+	\item 37.3. Usar o histórico de compras para oferecer recomendações personalizadas de produtos.
+\end{itemize}
+
+\subsubsection{Requisito 38: Backup e Recuperação de Dados}
+\textbf{Definição:} O sistema deve implementar um sistema de backup regular e recuperação de dados em caso de falhas.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 38.1. Realizar backups diários de todos os dados do sistema.
+	\item 38.2. Armazenar backups em locais seguros e fora das instalações.
+	\item 38.3. Ter procedimentos de recuperação de dados eficazes em caso de perda de dados.
+\end{itemize}
+
+\subsubsection{Requisito 39: Acessibilidade}
+\textbf{Definição:} O sistema deve ser acessível a todos os usuários, incluindo aqueles com deficiências visuais ou motoras.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 39.1. Seguir diretrizes de acessibilidade da web, como WCAG, para garantir que o sistema seja navegável por leitores de tela.
+	\item 39.2. Fornecer opções de aumento de tamanho de fonte e contraste para usuários com deficiências visuais.
+	\item 39.3. Garantir que todas as funcionalidades possam ser operadas com o uso de teclado para usuários com mobilidade reduzida.
+\end{itemize}
+
+\subsubsection{Requisito 40: Análise de Dados do Cliente}
+\textbf{Definição:} O sistema deve coletar dados do cliente para análise e personalização de experiência.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 40.1. Coletar dados de navegação, como páginas visitadas e produtos visualizados.
+	\item 40.2. Analisar os dados do cliente para oferecer recomendações personalizadas de produtos.
+	\item 40.3. Garantir a privacidade e segurança dos dados do cliente de acordo com as regulamentações de proteção de dados.
+\end{itemize}
+
+\subsubsection{Requisito 41: Suporte a Chat Online}
+\textbf{Definição:} O sistema deve oferecer suporte a um serviço de chat online para atendimento ao cliente em tempo real.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 41.1. Integrar um sistema de chat em tempo real para que os clientes possam entrar em contato com a equipe de suporte.
+	\item 41.2. Permitir que os clientes vejam a disponibilidade dos agentes de suporte.
+	\item 41.3. Registrar o histórico das conversas de chat para referência futura.
+\end{itemize}
+
+\subsubsection{Requisito 42: Relatórios de Vendas}
+\textbf{Definição:} O sistema deve gerar relatórios detalhados sobre as vendas e o desempenho do negócio.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 42.1. Gerar relatórios diários, semanais e mensais de vendas, incluindo dados como total de vendas, produtos mais vendidos e receita.
+	\item 42.2. Permitir que os administradores personalizem os relatórios de acordo com suas necessidades.
+	\item 42.3. Exportar relatórios em formatos como PDF e CSV.
+\end{itemize}
+
+\subsubsection{Requisito 43: Notificações por E-mail}
+\textbf{Definição:} O sistema deve enviar notificações por e-mail para informar os clientes sobre promoções, atualizações e transações.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 43.1. Coletar informações de contato dos clientes para fins de comunicação por e-mail.
+	\item 43.2. Enviar notificações sobre ofertas especiais, confirmações de pedidos e atualizações de produtos.
+	\item 43.3. Permitir que os clientes escolham suas preferências de recebimento de e-mails.
+\end{itemize}
+
+\subsubsection{Requisito 44: Fórum da Comunidade}
+\textbf{Definição:} O sistema deve oferecer um fórum de comunidade para que os clientes possam discutir produtos e compartilhar experiências.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 44.1. Implementar um fórum de discussão onde os clientes possam criar tópicos e responder a posts.
+	\item 44.2. Moderar o fórum para garantir que as discussões sejam respeitosas e construtivas.
+	\item 44.3. Fornecer um sistema de reputação para reconhecer membros ativos da comunidade.
+\end{itemize}
+
+\subsubsection{Requisito 45: Personalização de Produtos}
+\textbf{Definição:} O sistema deve permitir que os clientes personalizem produtos antes de fazer uma compra.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 45.1. Oferecer ferramentas de personalização, como escolha de cores, adição de monogramas, etc.
+	\item 45.2. Atualizar o preço automaticamente com base nas opções de personalização escolhidas.
+	\item 45.3. Garantir que as opções de personalização sejam claras e intuitivas para os clientes.
+\end{itemize}
+
+\subsubsection{Requisito 46: Integração de Redes Sociais}
+\textbf{Definição:} O sistema deve integrar-se a redes sociais para permitir que os clientes compartilhem produtos e conteúdo.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 46.1. Incluir botões de compartilhamento para redes sociais em páginas de produtos e conteúdo.
+	\item 46.2. Permitir que os clientes compartilhem suas compras e avaliações em suas próprias redes sociais.
+	\item 46.3. Acompanhar métricas de compartilhamento social para avaliar o impacto nas vendas.
+\end{itemize}
+
+\subsubsection{Requisito 47: Reserva de Produtos}
+\textbf{Definição:} O sistema deve permitir que os clientes reservem produtos por um período limitado antes de fazer a compra.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 47.1. Oferecer a opção de reserva para produtos com estoque limitado.
+	\item 47.2. Definir um período de reserva, após o qual o produto será liberado para outros clientes.
+	\item 47.3. Notificar os clientes sobre o status de suas reservas e fornecer instruções para conclusão da compra.
+\end{itemize}
+
+\subsubsection{Requisito 48: Controle de Acesso Hierárquico}
+\textbf{Definição:} O sistema deve suportar uma estrutura de controle de acesso com níveis hierárquicos para administradores e funcionários.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 48.1. Definir diferentes níveis de acesso, como administrador, gerente e funcionário.
+	\item 48.2. Garantir que os administradores tenham acesso total a todas as funcionalidades do sistema.
+	\item 48.3. Restringir o acesso de funcionários a funcionalidades específicas de acordo com suas atribuições.
+\end{itemize}
+
+\subsubsection{Requisito 49: Suporte a Dispositivos Móveis}
+\textbf{Definição:} O sistema deve ser responsivo e suportar dispositivos móveis, como smartphones e tablets.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 49.1. Garantir que o site seja totalmente funcional e de fácil utilização em dispositivos móveis.
+	\item 49.2. Adaptar automaticamente a interface do usuário de acordo com o tamanho da tela.
+	\item 49.3. Testar regularmente a compatibilidade com os principais navegadores móveis.
+\end{itemize}
+
+\subsubsection{Requisito 50: Integração com Sistema de CRM}
+\textbf{Definição:} O sistema deve integrar-se a um sistema de gerenciamento de relacionamento com o cliente (CRM) para melhorar o atendimento ao cliente.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 50.1. Sincronizar dados de clientes e histórico de interações com o sistema CRM.
+	\item 50.2. Permitir que a equipe de atendimento ao cliente acesse informações do CRM durante interações com os clientes.
+	\item 50.3. Automatizar o registro de novos clientes no sistema CRM.
+\end{itemize}
+
+\subsubsection{Requisito 51: Proteção contra Vírus e Malware}
+\textbf{Definição:} O sistema deve implementar medidas de segurança para proteger contra vírus e malware.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 51.1. Utilizar software antivírus atualizado para escanear arquivos e sistemas regularmente.
+	\item 51.2. Implementar filtros de e-mail para evitar a propagação de arquivos maliciosos.
+	\item 51.3. Manter sistemas operacionais e software de servidor atualizados com patches de segurança.
+\end{itemize}
+
+\subsubsection{Requisito 52: Criptografia de Dados Sensíveis}
+\textbf{Definição:} O sistema deve criptografar dados sensíveis armazenados e transmitidos para garantir sua confidencialidade.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 52.1. Utilizar protocolos de criptografia (por exemplo, SSL/TLS) para proteger a transmissão de dados pela rede.
+	\item 52.2. Armazenar senhas e informações de pagamento dos clientes em formato criptografado.
+	\item 52.3. Implementar criptografia de dados em repouso nos bancos de dados para proteger informações sensíveis.
+\end{itemize}
+
+\subsubsection{Requisito 53: Backup Regular de Bancos de Dados}
+\textbf{Definição:} O sistema deve realizar backups regulares dos bancos de dados para garantir a recuperação de dados em caso de falhas.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 53.1. Agendar backups automáticos diários dos bancos de dados.
+	\item 53.2. Armazenar cópias de backup em local seguro e fora das instalações físicas.
+	\item 53.3. Testar periodicamente a restauração de dados a partir dos backups para garantir a eficácia do processo.
+\end{itemize}
+
+\subsubsection{Requisito 54: Monitoramento de Segurança de Servidores}
+\textbf{Definição:} O sistema deve implementar um sistema de monitoramento contínuo para identificar e responder a possíveis ameaças de segurança nos servidores.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 54.1. Utilizar ferramentas de monitoramento de segurança para rastrear atividades suspeitas nos servidores.
+	\item 54.2. Configurar alertas para notificar a equipe de segurança sobre atividades anômalas.
+	\item 54.3. Manter registros de auditoria detalhados para fins de investigação de segurança.
+\end{itemize}
+
+\subsubsection{Requisito 55: Tolerância a Falhas em Servidores}
+\textbf{Definição:} O sistema deve ser projetado com tolerância a falhas para garantir a disponibilidade contínua, mesmo em caso de falhas de hardware ou software.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 55.1. Configurar servidores em clusters para permitir a transferência automática de carga em caso de falhas.
+	\item 55.2. Implementar balanceamento de carga para distribuir o tráfego de forma equitativa entre os servidores.
+	\item 55.3. Manter sistemas redundantes para componentes críticos, como fontes de alimentação e discos rígidos.
+\end{itemize}
+
+\subsubsection{Requisito 56: Gerenciamento de Patches de Segurança}
+\textbf{Definição:} O sistema deve estabelecer um processo formal para gerenciamento de patches de segurança.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 56.1. Avaliar regularmente os patches de segurança disponíveis para sistemas operacionais e software de servidor.
+	\item 56.2. Estabelecer um cronograma para aplicação de patches de segurança, minimizando o tempo de inatividade.
+	\item 56.3. Testar patches em ambiente de desenvolvimento antes de aplicá-los em produção.
+\end{itemize}
+
+\subsubsection{Requisito 57: Autenticação de Dois Fatores (2FA)}
+\textbf{Definição:} O sistema deve oferecer a opção de autenticação de dois fatores para aumentar a segurança das contas de usuário.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 57.1. Permitir que os usuários ativem a autenticação de dois fatores em suas contas.
+	\item 57.2. Implementar métodos de autenticação secundária, como códigos de verificação ou autenticação por aplicativo.
+	\item 57.3. Exigir a autenticação de dois fatores para ações sensíveis, como alterações de senha ou informações de pagamento.
+\end{itemize}
+
+\subsubsection{Requisito 58: Auditoria de Acesso ao Sistema}
+\textbf{Definição:} O sistema deve registrar e monitorar todas as atividades de acesso ao sistema para fins de auditoria.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 58.1. Registrar detalhes de cada acesso ao sistema, incluindo data, hora, endereço IP e usuário.
+	\item 58.2. Manter logs de auditoria por um período especificado de acordo com as regulamentações aplicáveis.
+	\item 58.3. Implementar políticas de retenção de logs para otimizar o uso de armazenamento.
+\end{itemize}
+
+\subsubsection{Requisito 59: Restrição de Acesso a Dados Sensíveis}
+\textbf{Definição:} O sistema deve restringir o acesso a dados sensíveis, permitindo que apenas usuários autorizados visualizem e modifiquem essas informações.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 59.1. Definir permissões de acesso com base nas funções e responsabilidades dos usuários.
+	\item 59.2. Criar políticas de acesso que determinem quem pode visualizar, editar e excluir dados sensíveis.
+	\item 59.3. Implementar mecanismos de controle de acesso, como autenticação e autorização, para garantir o cumprimento das políticas.
+\end{itemize}
+
+\subsubsection{Requisito 60: Testes de Penetração Regulares}
+\textbf{Definição:} O sistema deve passar por testes de penetração regulares para identificar vulnerabilidades e avaliar a eficácia das medidas de segurança.
+\\
+\textbf{Especificação:}
+\begin{itemize}
+	\item 60.1. Contratar profissionais de segurança ou empresas especializadas para realizar testes de penetração.
+	\item 60.2. Agendar testes de penetração em intervalos regulares, especialmente após alterações significativas no sistema.
+	\item 60.3. Documentar e abordar todas as vulnerabilidades identificadas durante os testes.
+\end{itemize}
 
 
 \section{Stakeholders e Pontos de Vista}

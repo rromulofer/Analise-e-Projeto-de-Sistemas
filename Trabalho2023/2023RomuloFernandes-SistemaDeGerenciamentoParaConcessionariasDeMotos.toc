@@ -34,26 +34,90 @@
 \contentsline {subsubsection}{Arquitetura do Sistema}{13}{section*.8}%
 \contentsline {subsubsection}{Plataforma de Desenvolvimento}{14}{section*.9}%
 \contentsline {subsubsection}{Banco de Dados}{15}{section*.10}%
-\contentsline {subsubsection}{Tecnologias de Front-End}{15}{section*.11}%
-\contentsline {subsubsection}{Segurança}{15}{section*.12}%
-\contentsline {subsubsection}{Operacionais}{15}{section*.13}%
-\contentsline {subsection}{\numberline {2.5.5}Resumo e Recomenda\c {c}\~{o}es}{15}{subsection.2.5.5}%
-\contentsline {chapter}{\numberline {3}Etapa de An\'{a}lise}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Requisitos do Sistema}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Stakeholders e Pontos de Vista}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Entrevista}{17}{section.3.3}%
-\contentsline {section}{\numberline {3.4} Casos de Uso}{17}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Modelagem do Sistema}{17}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Modelagem de Processos}{17}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Modelagem de Dados}{17}{subsection.3.5.2}%
-\contentsline {chapter}{\numberline {4}Projeto do Sistema}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Estrat\'{e}gia do Projeto}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Refinamento dos Diagramas DFD e E-R}{19}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{19}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{19}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{19}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{19}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Projeto de Interface}{19}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{21}{chapter.5}%
-\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{23}{chapter*.14}%
+\contentsline {subsubsection}{Tecnologias de Front-End}{16}{section*.11}%
+\contentsline {subsubsection}{Segurança}{16}{section*.12}%
+\contentsline {subsubsection}{Operacionais}{16}{section*.13}%
+\contentsline {subsection}{\numberline {2.5.5}Resumo e Recomenda\c {c}\~{o}es}{17}{subsection.2.5.5}%
+\contentsline {subsubsection}{Viabilidade Técnica:}{17}{section*.14}%
+\contentsline {subsubsection}{Viabilidade Financeira:}{17}{section*.15}%
+\contentsline {subsubsection}{Viabilidade Operacional:}{17}{section*.16}%
+\contentsline {subsubsection}{Recomendação Final:}{17}{section*.17}%
+\contentsline {chapter}{\numberline {3}Etapa de An\'{a}lise}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Requisitos do Sistema}{19}{section.3.1}%
+\contentsline {subsubsection}{Requisito 1: Controle de Estoque}{19}{section*.18}%
+\contentsline {subsubsection}{Requisito 2: Impressão de Relatórios}{19}{section*.19}%
+\contentsline {subsubsection}{Requisito 3: Gestão de Vendas}{19}{section*.20}%
+\contentsline {subsubsection}{Requisito 4: Cadastro de Clientes}{20}{section*.21}%
+\contentsline {subsubsection}{Requisito 5: Cadastro de Motos}{20}{section*.22}%
+\contentsline {subsubsection}{Requisito 6: Acesso ao Sistema}{20}{section*.23}%
+\contentsline {subsubsection}{Requisito 7: Controle de Acesso}{20}{section*.24}%
+\contentsline {subsubsection}{Requisito 8: Registro de Manutenção}{20}{section*.25}%
+\contentsline {subsubsection}{Requisito 9: Reservas de Serviço}{20}{section*.26}%
+\contentsline {subsubsection}{Requisito 10: Painel de Administração}{21}{section*.27}%
+\contentsline {subsubsection}{Requisito 11: Notificações de Estoque}{21}{section*.28}%
+\contentsline {subsubsection}{Requisito 12: Histórico de Vendas}{21}{section*.29}%
+\contentsline {subsubsection}{Requisito 13: Controle de Avarias}{21}{section*.30}%
+\contentsline {subsubsection}{Requisito 14: Promoções e Descontos}{21}{section*.31}%
+\contentsline {subsubsection}{Requisito 15: Integração de Pagamento Online}{21}{section*.32}%
+\contentsline {subsubsection}{Requisito 16: Gestão de Fornecedores}{22}{section*.33}%
+\contentsline {subsubsection}{Requisito 17: Suporte Multilíngue}{22}{section*.34}%
+\contentsline {subsubsection}{Requisito 18: Relatórios de Desempenho}{22}{section*.35}%
+\contentsline {subsubsection}{Requisito 19: Backup e Recuperação de Dados}{22}{section*.36}%
+\contentsline {subsubsection}{Requisito 20: Atualizações de Software}{22}{section*.37}%
+\contentsline {subsubsection}{Requisito 21: Autenticação de Dois Fatores}{22}{section*.38}%
+\contentsline {subsubsection}{Requisito 22: Gestão de Devoluções}{23}{section*.39}%
+\contentsline {subsubsection}{Requisito 23: Gestão de Créditos e Reembolsos}{23}{section*.40}%
+\contentsline {subsubsection}{Requisito 24: Integração com Plataformas de Mídia Social}{23}{section*.41}%
+\contentsline {subsubsection}{Requisito 25: Personalização de Produtos}{23}{section*.42}%
+\contentsline {subsubsection}{Requisito 26: Comparação de Produtos}{23}{section*.43}%
+\contentsline {subsubsection}{Requisito 27: Suporte a Programas de Fidelidade}{24}{section*.44}%
+\contentsline {subsubsection}{Requisito 28: Acesso a Relatórios Financeiros}{24}{section*.45}%
+\contentsline {subsubsection}{Requisito 29: Configuração de Impostos e Taxas}{24}{section*.46}%
+\contentsline {subsubsection}{Requisito 30: Suporte a Chat Online}{24}{section*.47}%
+\contentsline {subsubsection}{Requisito 31: Gestão de Motos Usadas}{24}{section*.48}%
+\contentsline {subsubsection}{Requisito 32: Integração com Sistemas de Pagamento}{24}{section*.49}%
+\contentsline {subsubsection}{Requisito 33: Gerenciamento de Ofertas e Promoções}{25}{section*.50}%
+\contentsline {subsubsection}{Requisito 34: Rastreamento de Entrega de Pedidos}{25}{section*.51}%
+\contentsline {subsubsection}{Requisito 35: Suporte a Múltiplos Idiomas}{25}{section*.52}%
+\contentsline {subsubsection}{Requisito 36: Gerenciamento de Avaliações e Comentários}{25}{section*.53}%
+\contentsline {subsubsection}{Requisito 37: Histórico de Compras}{25}{section*.54}%
+\contentsline {subsubsection}{Requisito 38: Backup e Recuperação de Dados}{25}{section*.55}%
+\contentsline {subsubsection}{Requisito 39: Acessibilidade}{26}{section*.56}%
+\contentsline {subsubsection}{Requisito 40: Análise de Dados do Cliente}{26}{section*.57}%
+\contentsline {subsubsection}{Requisito 41: Suporte a Chat Online}{26}{section*.58}%
+\contentsline {subsubsection}{Requisito 42: Relatórios de Vendas}{26}{section*.59}%
+\contentsline {subsubsection}{Requisito 43: Notificações por E-mail}{26}{section*.60}%
+\contentsline {subsubsection}{Requisito 44: Fórum da Comunidade}{26}{section*.61}%
+\contentsline {subsubsection}{Requisito 45: Personalização de Produtos}{27}{section*.62}%
+\contentsline {subsubsection}{Requisito 46: Integração de Redes Sociais}{27}{section*.63}%
+\contentsline {subsubsection}{Requisito 47: Reserva de Produtos}{27}{section*.64}%
+\contentsline {subsubsection}{Requisito 48: Controle de Acesso Hierárquico}{27}{section*.65}%
+\contentsline {subsubsection}{Requisito 49: Suporte a Dispositivos Móveis}{27}{section*.66}%
+\contentsline {subsubsection}{Requisito 50: Integração com Sistema de CRM}{28}{section*.67}%
+\contentsline {subsubsection}{Requisito 51: Proteção contra Vírus e Malware}{28}{section*.68}%
+\contentsline {subsubsection}{Requisito 52: Criptografia de Dados Sensíveis}{28}{section*.69}%
+\contentsline {subsubsection}{Requisito 53: Backup Regular de Bancos de Dados}{28}{section*.70}%
+\contentsline {subsubsection}{Requisito 54: Monitoramento de Segurança de Servidores}{28}{section*.71}%
+\contentsline {subsubsection}{Requisito 55: Tolerância a Falhas em Servidores}{28}{section*.72}%
+\contentsline {subsubsection}{Requisito 56: Gerenciamento de Patches de Segurança}{29}{section*.73}%
+\contentsline {subsubsection}{Requisito 57: Autenticação de Dois Fatores (2FA)}{29}{section*.74}%
+\contentsline {subsubsection}{Requisito 58: Auditoria de Acesso ao Sistema}{29}{section*.75}%
+\contentsline {subsubsection}{Requisito 59: Restrição de Acesso a Dados Sensíveis}{29}{section*.76}%
+\contentsline {subsubsection}{Requisito 60: Testes de Penetração Regulares}{29}{section*.77}%
+\contentsline {section}{\numberline {3.2}Stakeholders e Pontos de Vista}{30}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Entrevista}{30}{section.3.3}%
+\contentsline {section}{\numberline {3.4} Casos de Uso}{30}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Modelagem do Sistema}{30}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Modelagem de Processos}{30}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Modelagem de Dados}{30}{subsection.3.5.2}%
+\contentsline {chapter}{\numberline {4}Projeto do Sistema}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Estrat\'{e}gia do Projeto}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Refinamento dos Diagramas DFD e E-R}{31}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{31}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{31}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{31}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{31}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Projeto de Interface}{31}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{33}{chapter.5}%
+\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{35}{chapter*.78}%
 \contentsfinish 
