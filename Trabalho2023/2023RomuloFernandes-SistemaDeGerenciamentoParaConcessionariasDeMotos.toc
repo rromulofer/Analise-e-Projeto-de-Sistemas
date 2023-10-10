@@ -125,26 +125,26 @@
 \contentsline {subsection}{\numberline {3.3.5}Relatório de Entrevistas}{33}{subsection.3.3.5}%
 \contentsline {section}{\numberline {3.4}Casos de Uso}{33}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Diagrama de Casos de Uso}{33}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Descrição dos Casos de Uso}{33}{subsection.3.4.2}%
-\contentsline {subsubsection}{Cadastrar Cliente}{33}{section*.87}%
-\contentsline {subsubsection}{Realizar Venda}{33}{section*.88}%
+\contentsline {subsection}{\numberline {3.4.2}Descrição dos Casos de Uso}{34}{subsection.3.4.2}%
+\contentsline {subsubsection}{Cadastrar Cliente}{34}{section*.87}%
+\contentsline {subsubsection}{Realizar Venda}{34}{section*.88}%
 \contentsline {subsubsection}{Gerar Relatório de Vendas}{34}{section*.89}%
 \contentsline {subsection}{\numberline {3.4.3}Resumo dos Casos de Uso}{34}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Modelagem do Sistema}{34}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Modelagem de Processos}{34}{subsection.3.5.1}%
-\contentsline {subsubsection}{Diagrama de Fluxo de Trabalho da Venda}{34}{section*.90}%
-\contentsline {subsection}{\numberline {3.5.2}Modelagem de Dados}{35}{subsection.3.5.2}%
-\contentsline {subsubsection}{Entidades e Relacionamentos}{35}{section*.91}%
-\contentsline {subsubsection}{Diagrama de Banco de Dados}{35}{section*.92}%
-\contentsline {subsection}{\numberline {3.5.3}Resumo da Modelagem}{35}{subsection.3.5.3}%
-\contentsline {chapter}{\numberline {4}Projeto do Sistema}{37}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Estrat\'{e}gia do Projeto}{37}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Refinamento dos Diagramas DFD e E-R}{37}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{37}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{37}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{37}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{37}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Projeto de Interface}{37}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{39}{chapter.5}%
-\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{41}{chapter*.93}%
+\contentsline {section}{\numberline {3.5}Modelagem do Sistema}{35}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Modelagem de Processos}{35}{subsection.3.5.1}%
+\contentsline {subsubsection}{Diagrama de Fluxo de Trabalho da Venda}{35}{section*.90}%
+\contentsline {subsection}{\numberline {3.5.2}Modelagem de Dados}{36}{subsection.3.5.2}%
+\contentsline {subsubsection}{Entidades e Relacionamentos}{36}{section*.91}%
+\contentsline {subsubsection}{Diagrama de Banco de Dados}{36}{section*.92}%
+\contentsline {subsection}{\numberline {3.5.3}Resumo da Modelagem}{37}{subsection.3.5.3}%
+\contentsline {chapter}{\numberline {4}Projeto do Sistema}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Estrat\'{e}gia do Projeto}{39}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Refinamento dos Diagramas DFD e E-R}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{39}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{39}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{39}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{39}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Projeto de Interface}{39}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{41}{chapter.5}%
+\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{43}{chapter*.93}%
 \contentsfinish 
