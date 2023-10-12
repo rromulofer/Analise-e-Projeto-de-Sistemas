@@ -120,22 +120,26 @@
 \contentsline {section}{\numberline {3.3}Entrevista}{31}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Seleção de Stakeholders}{31}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Planejamento das Entrevistas}{32}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Condução das Entrevistas}{32}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Análise dos Resultados}{32}{subsection.3.3.4}%
+\contentsline {subsubsection}{Definição de Objetivos Claros}{32}{section*.87}%
+\contentsline {subsubsection}{Agendamento Estratégico}{32}{section*.88}%
+\contentsline {subsubsection}{Roteiro de Entrevista Flexível}{32}{section*.89}%
+\contentsline {subsubsection}{Documentação Abrangente}{32}{section*.90}%
+\contentsline {subsection}{\numberline {3.3.3}Condução das Entrevistas}{33}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Análise dos Resultados}{33}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}Relatório de Entrevistas}{33}{subsection.3.3.5}%
 \contentsline {section}{\numberline {3.4}Casos de Uso}{33}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Diagrama de Casos de Uso}{33}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.1}Diagrama de Casos de Uso}{34}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Descrição dos Casos de Uso}{34}{subsection.3.4.2}%
-\contentsline {subsubsection}{Cadastrar Cliente}{34}{section*.87}%
-\contentsline {subsubsection}{Realizar Venda}{34}{section*.88}%
-\contentsline {subsubsection}{Gerar Relatório de Vendas}{34}{section*.89}%
-\contentsline {subsection}{\numberline {3.4.3}Resumo dos Casos de Uso}{34}{subsection.3.4.3}%
+\contentsline {subsubsection}{Cadastrar Cliente}{34}{section*.91}%
+\contentsline {subsubsection}{Realizar Venda}{35}{section*.92}%
+\contentsline {subsubsection}{Gerar Relatório de Vendas}{35}{section*.93}%
+\contentsline {subsection}{\numberline {3.4.3}Resumo dos Casos de Uso}{35}{subsection.3.4.3}%
 \contentsline {section}{\numberline {3.5}Modelagem do Sistema}{35}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Modelagem de Processos}{35}{subsection.3.5.1}%
-\contentsline {subsubsection}{Diagrama de Fluxo de Trabalho da Venda}{35}{section*.90}%
-\contentsline {subsection}{\numberline {3.5.2}Modelagem de Dados}{36}{subsection.3.5.2}%
-\contentsline {subsubsection}{Entidades e Relacionamentos}{36}{section*.91}%
-\contentsline {subsubsection}{Diagrama de Banco de Dados}{36}{section*.92}%
+\contentsline {subsection}{\numberline {3.5.1}Modelagem de Processos}{36}{subsection.3.5.1}%
+\contentsline {subsubsection}{Diagrama de Fluxo de Trabalho da Venda}{36}{section*.94}%
+\contentsline {subsection}{\numberline {3.5.2}Modelagem de Dados}{37}{subsection.3.5.2}%
+\contentsline {subsubsection}{Entidades e Relacionamentos}{37}{section*.95}%
+\contentsline {subsubsection}{Diagrama de Banco de Dados}{37}{section*.96}%
 \contentsline {subsection}{\numberline {3.5.3}Resumo da Modelagem}{37}{subsection.3.5.3}%
 \contentsline {chapter}{\numberline {4}Projeto do Sistema}{39}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Estrat\'{e}gia do Projeto}{39}{section.4.1}%
@@ -146,5 +150,5 @@
 \contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{39}{subsection.4.3.3}%
 \contentsline {section}{\numberline {4.4}Projeto de Interface}{39}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{41}{chapter.5}%
-\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{43}{chapter*.93}%
+\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{43}{chapter*.97}%
 \contentsfinish 
