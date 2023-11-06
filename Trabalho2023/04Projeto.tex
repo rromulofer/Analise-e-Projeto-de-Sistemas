@@ -108,6 +108,132 @@ A estratégia do projeto estabelecida visa cumprir os objetivos e fornecer um si
 
 \section{Refinamento dos Diagramas DFD e E-R}
 
+Nesta seção, realizaremos o refinamento dos Diagramas de Fluxo de Dados (DFD) e dos Diagramas de Entidade-Relacionamento (E-R) que descrevem o processo de venda na concessionária de motos. Essas representações visuais são essenciais para compreender e aprimorar o processo, facilitando o desenvolvimento do sistema que atenderá às necessidades dos funcionários da concessionária e dos clientes.
+
+\subsection{Refinamento dos Diagramas DFD}
+
+Os DFDs são ferramentas essenciais para visualizar e analisar o fluxo de informações e as interações envolvidas em cada etapa do processo de venda. Começaremos refinando os DFDs.
+
+\subsubsection{DFD de Alto Nível - Processo de Venda}
+
+O DFD de alto nível representa o processo de venda de forma simplificada, destacando os principais atores e fluxos de dados. Este DFD é uma visão geral do processo e inclui os seguintes elementos:
+
+\begin{itemize}
+	\item \textbf{Funcionário da Concessionária}: Este ator inicia o processo de venda e interage diretamente com o cliente.
+	\item \textbf{Atendimento ao Cliente}: Representa a interface do cliente no processo de venda.
+	\item \textbf{Dados do Cliente}: Este fluxo de dados contém informações pessoais do cliente, como nome, endereço e informações de contato.
+	\item \textbf{Informações sobre Motos Disponíveis}: Inclui detalhes sobre as motos disponíveis no estoque, como marca, modelo, ano, preço e especificações.
+	\item \textbf{Registro de Venda}: Representa o registro das informações relacionadas à venda, incluindo a data da transação e os detalhes das motos vendidas.
+\end{itemize}
+
+O DFD de alto nível fornece uma compreensão geral do processo de venda, mas agora nos aprofundaremos em detalhes com DFDs mais específicos.
+
+\subsubsection{DFD Detalhado - Processo de Venda}
+
+O DFD detalhado expande cada etapa do processo de venda em maior profundidade. Vamos destacar as principais funcionalidades em cada parte do processo:
+
+\paragraph{Atendimento ao Cliente}
+
+Nesta etapa, o "Funcionário da Concessionária" inicia a interação com o cliente, que é representado pelo "Atendimento ao Cliente." Os principais fluxos de dados incluem:
+
+\begin{itemize}
+	\item \textbf{Identificação de Necessidades}: O funcionário coleta informações sobre as necessidades do cliente em relação à compra da moto.
+	\item \textbf{Requisitos do Cliente}: São os critérios do cliente, como preferências de marca, modelo e outras especificações.
+\end{itemize}
+
+\paragraph{Apresentação das Motos Disponíveis}
+
+Nesta etapa, o funcionário apresenta as motos disponíveis que atendem às necessidades do cliente. Os principais fluxos de dados são:
+
+\begin{itemize}
+	\item \textbf{Informações Detalhadas das Motos}: Isso inclui os detalhes das motos disponíveis, como marca, modelo, ano, preço e especificações técnicas.
+	\item \textbf{Seleção da Moto pelo Cliente}: Representa a escolha do cliente em relação à moto desejada.
+\end{itemize}
+
+\paragraph{Registro dos Dados do Cliente}
+
+Se o cliente decidir prosseguir com a compra, o funcionário registra os dados pessoais do cliente. Os fluxos de dados incluem:
+
+\begin{itemize}
+	\item \textbf{Informações do Cliente}: Inclui dados como nome, endereço e informações de contato do cliente.
+	\item \textbf{Confirmação da Compra}: Indica que o cliente está comprometido com a compra da moto.
+\end{itemize}
+
+\paragraph{Registro da Venda}
+
+Nesta etapa final, o funcionário registra a venda, incluindo os detalhes da moto vendida e a data da transação. Os principais fluxos de dados são:
+
+\begin{itemize}
+	\item \textbf{Detalhes da Venda}: Inclui informações como preço final, data da venda e outros detalhes financeiros.
+	\item \textbf{Estoque Atualizado}: Reflete as mudanças no estoque da concessionária após a venda.
+\end{itemize}
+
+\subsubsection{Conclusão}
+
+O refinamento dos Diagramas de Fluxo de Dados fornece uma visão mais detalhada do processo de venda na concessionária de motos. Essas representações visuais são essenciais para compreender e aprimorar o processo, facilitando o desenvolvimento do sistema que atenderá às necessidades dos funcionários da concessionária e dos clientes.
+
+\subsection{Refinamento do Diagrama Entidade-Relacionamento (E-R)}
+
+Nesta seção, iremos aprimorar o Diagrama Entidade-Relacionamento (E-R) para modelar as entidades Cliente, Venda e Moto, juntamente com seus atributos e relacionamentos.
+
+\subsubsection{Entidades}
+
+\paragraph{Cliente}
+
+A entidade "Cliente" representa as informações dos clientes da concessionária de motos. Ela possui os seguintes atributos:
+
+\begin{itemize}
+	\item \textbf{IDCliente}: Identificador único para cada cliente.
+	\item \textbf{Nome}: Nome do cliente.
+	\item \textbf{Idade}: Idade do cliente.
+	\item \textbf{Telefone}: Número de telefone do cliente.
+	\item \textbf{Email}: Endereço de e-mail do cliente.
+	\item \textbf{Endereço}: Endereço do cliente.
+\end{itemize}
+
+\paragraph{Venda}
+
+A entidade "Venda" registra informações sobre cada venda realizada na concessionária. Seus atributos incluem:
+
+\begin{itemize}
+	\item \textbf{IDVenda}: Identificador único para cada venda.
+	\item \textbf{DataCompra}: Data em que a venda foi realizada.
+	\item \textbf{IDCliente}: Uma chave estrangeira que se relaciona com a entidade "Cliente," indicando o cliente envolvido na venda.
+	\item \textbf{IDMoto}: Uma chave estrangeira que se relaciona com a entidade "Moto," indicando a moto vendida.
+\end{itemize}
+
+\paragraph{Moto}
+
+A entidade "Moto" contém informações sobre as motos disponíveis na concessionária. Seus atributos são:
+
+\begin{itemize}
+	\item \textbf{IDMoto}: Identificador único para cada moto.
+	\item \textbf{Modelo}: Modelo da moto.
+	\item \textbf{Ano}: Ano de fabricação da moto.
+	\item \textbf{Preço}: Preço da moto.
+	\item \textbf{Cor}: Cor da moto.
+\end{itemize}
+
+\subsubsection{Relacionamentos:}
+
+
+\paragraph{Relacionamento entre Cliente e Venda}
+
+Há um relacionamento entre a entidade "Cliente" e "Venda," com uma cardinalidade de 1 para N, o que significa que um cliente pode estar associado a várias vendas, mas cada venda está relacionada a apenas um cliente. Este relacionamento é representado por uma chave estrangeira "IDCliente" na entidade "Venda."
+
+\paragraph{Relacionamento entre Venda e Moto}
+
+Há um relacionamento entre a entidade "Venda" e "Moto," também com uma cardinalidade de 1 para N. Isso significa que uma venda pode incluir várias motos, mas cada moto está associada a apenas uma venda. Este relacionamento é representado pela chave estrangeira "IDMoto" na entidade "Venda."
+
+\subsubsection{Conclusão}
+
+O refinamento do Diagrama Entidade-Relacionamento proporciona uma representação visual mais detalhada das entidades, atributos e relacionamentos do sistema de gerenciamento de concessionárias de motos. Isso auxiliará no desenvolvimento do banco de dados e na compreensão das interações entre os componentes do sistema.
+
+
+
+
+
+
 
 \section{Arquitetura do Sistema - Estilos}
 

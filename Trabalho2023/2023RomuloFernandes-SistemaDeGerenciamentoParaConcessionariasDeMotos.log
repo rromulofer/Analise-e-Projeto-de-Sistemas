@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.22)  30 OCT 2023 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.22)  31 OCT 2023 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1399,7 +1399,7 @@ os.toc'.
 
  [4] (01introduc.tex
 Cap\'{\i }tulo 1.
-<Pictures//sistemas.png, id=238, 1204.5pt x 469.755pt>
+<Pictures//sistemas.png, id=244, 1204.5pt x 469.755pt>
 File: Pictures//sistemas.png Graphic file (type png)
 <use Pictures//sistemas.png>
 Package pdftex.def Info: Pictures//sistemas.png  used on input line 9.
@@ -1436,7 +1436,7 @@ l.172
 
 ]
 Cap\'{\i }tulo 2.
-<Pictures//planejamento.png, id=285, 289.08pt x 112.7412pt>
+<Pictures//planejamento.png, id=291, 289.08pt x 112.7412pt>
 File: Pictures//planejamento.png Graphic file (type png)
 <use Pictures//planejamento.png>
 Package pdftex.def Info: Pictures//planejamento.png  used on input line 8.
@@ -1472,7 +1472,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
  []
 
 [11]
-<Pictures//cronograma.png, id=311, 419.06563pt x 99.87312pt>
+<Pictures//cronograma.png, id=317, 419.06563pt x 99.87312pt>
 File: Pictures//cronograma.png Graphic file (type png)
 <use Pictures//cronograma.png>
 Package pdftex.def Info: Pictures//cronograma.png  used on input line 205.
@@ -1487,14 +1487,14 @@ Underfull \vbox (badness 2790) has occurred while \output is active []
 
 ]
 Cap\'{\i }tulo 3.
-<Pictures//analise.png, id=362, 903.375pt x 352.31625pt>
+<Pictures//analise.png, id=368, 903.375pt x 352.31625pt>
 File: Pictures//analise.png Graphic file (type png)
 <use Pictures//analise.png>
 Package pdftex.def Info: Pictures//analise.png  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
 [19 <./Pictures//analise.png>] [20] [21] [22] [23] [24] [25] [26] [27] [28]
 [29] [30] [31] [32]
-<Pictures//diagramacaso.png, id=494, 318.18875pt x 349.80687pt>
+<Pictures//diagramacaso.png, id=500, 318.18875pt x 349.80687pt>
 File: Pictures//diagramacaso.png Graphic file (type png)
 <use Pictures//diagramacaso.png>
 Package pdftex.def Info: Pictures//diagramacaso.png  used on input line 761.
@@ -1503,7 +1503,7 @@ Package pdftex.def Info: Pictures//diagramacaso.png  used on input line 761.
 Underfull \vbox (badness 1107) has occurred while \output is active []
 
  [35]
-<Pictures//diagrama-vendas.png, id=528, 358.33875pt x 289.08pt>
+<Pictures//diagrama-vendas.png, id=534, 358.33875pt x 289.08pt>
 File: Pictures//diagrama-vendas.png Graphic file (type png)
 <use Pictures//diagrama-vendas.png>
 Package pdftex.def Info: Pictures//diagrama-vendas.png  used on input line 849.
@@ -1511,7 +1511,7 @@ Package pdftex.def Info: Pictures//diagrama-vendas.png  used on input line 849.
 (pdftex.def)             Requested size: 298.75264pt x 241.02585pt.
 
 [36 <./Pictures//diagrama-vendas.png>]
-<Pictures//banco-de-dados.png, id=536, 864.98157pt x 526.21594pt>
+<Pictures//banco-de-dados.png, id=542, 864.98157pt x 526.21594pt>
 File: Pictures//banco-de-dados.png Graphic file (type png)
 <use Pictures//banco-de-dados.png>
 Package pdftex.def Info: Pictures//banco-de-dados.png  used on input line 909.
@@ -1522,7 +1522,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [37]) (04Projeto.tex [38 <./Pictures//banco-de-dados.png>]
 Cap\'{\i }tulo 4.
-<Pictures//projeto.png, id=556, 289.08pt x 112.7412pt>
+<Pictures//projeto.png, id=562, 289.08pt x 112.7412pt>
 File: Pictures//projeto.png Graphic file (type png)
 <use Pictures//projeto.png>
 Package pdftex.def Info: Pictures//projeto.png  used on input line 8.
@@ -1534,16 +1534,14 @@ File: Pictures//cronograma.png Graphic file (type png)
 <use Pictures//cronograma.png>
 Package pdftex.def Info: Pictures//cronograma.png  used on input line 47.
 (pdftex.def)             Requested size: 426.79135pt x 101.71379pt.
- [40]) (conclusao.tex [41] [42
-
-]
+ [40] [41] [42] [43]) (conclusao.tex [44]
 Cap\'{\i }tulo 5.
-<Pictures//conclusoes.png, id=581, 1204.5pt x 469.755pt>
+<Pictures//conclusoes.png, id=610, 1204.5pt x 469.755pt>
 File: Pictures//conclusoes.png Graphic file (type png)
 <use Pictures//conclusoes.png>
 Package pdftex.def Info: Pictures//conclusoes.png  used on input line 9.
 (pdftex.def)             Requested size: 597.50787pt x 233.03477pt.
-<Pictures//MeuSistema.jpg, id=582, 1060.56226pt x 430.0065pt>
+<Pictures//MeuSistema.jpg, id=611, 1060.56226pt x 430.0065pt>
 File: Pictures//MeuSistema.jpg Graphic file (type jpg)
 <use Pictures//MeuSistema.jpg>
 Package pdftex.def Info: Pictures//MeuSistema.jpg  used on input line 23.
@@ -1555,15 +1553,17 @@ Package pdftex.def Info: Pictures//MeuSistema.jpg  used on input line 23.
 os.brf'.
 
 
-[43 <./Pictures//conclusoes.png> <./Pictures//MeuSistema.jpg>] [44
+[45
+
+ <./Pictures//conclusoes.png> <./Pictures//MeuSistema.jpg>] [46
 
 ]
-<Pictures//referencias.png, id=592, 903.375pt x 352.31625pt>
+<Pictures//referencias.png, id=622, 903.375pt x 352.31625pt>
 File: Pictures//referencias.png Graphic file (type png)
 <use Pictures//referencias.png>
 Package pdftex.def Info: Pictures//referencias.png  used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
-) [45 <./Pictures//referencias.png>]
+) [47 <./Pictures//referencias.png>]
 (2023RomuloFernandes-SistemaDeGerenciamentoParaConcessionariasDeMotos.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1573,10 +1573,10 @@ raConcessionariasDeMotos.brf' has not changed.
 (rerunfilecheck)             Checksum: ABB694CE30D1F111A91972D7D568B72F;430.
  ) 
 Here is how much of TeX's memory you used:
- 34093 strings out of 478338
- 693283 string characters out of 2836700
+ 34126 strings out of 478338
+ 693714 string characters out of 2836700
  1165771 words of memory out of 3000000
- 51241 multiletter control sequences out of 15000+600000
+ 51255 multiletter control sequences out of 15000+600000
  549590 words of font info for 325 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,92p,1128b,1167s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1588,9 +1588,9 @@ fb><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.p
 fb><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.
 pfb>
 Output written on 2023RomuloFernandes-SistemaDeGerenciamentoParaConcessionarias
-DeMotos.pdf (49 pages, 6790004 bytes).
+DeMotos.pdf (51 pages, 6800471 bytes).
 PDF statistics:
- 875 PDF objects out of 1000 (max. 8388607)
- 254 named destinations out of 1000 (max. 500000)
- 84138 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 913 PDF objects out of 1000 (max. 8388607)
+ 273 named destinations out of 1000 (max. 500000)
+ 84154 words of extra memory for PDF output out of 89155 (max. 10000000)
 

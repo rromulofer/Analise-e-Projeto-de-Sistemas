@@ -149,11 +149,28 @@
 \contentsline {subsection}{\numberline {4.1.4}Orçamento}{41}{subsection.4.1.4}%
 \contentsline {subsection}{\numberline {4.1.5}Equipe do Projeto}{41}{subsection.4.1.5}%
 \contentsline {section}{\numberline {4.2}Refinamento dos Diagramas DFD e E-R}{41}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{41}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{41}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{41}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{41}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Projeto de Interface}{41}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{43}{chapter.5}%
-\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{45}{chapter*.97}%
+\contentsline {subsection}{\numberline {4.2.1}Refinamento dos Diagramas DFD}{41}{subsection.4.2.1}%
+\contentsline {subsubsection}{DFD de Alto Nível - Processo de Venda}{41}{section*.97}%
+\contentsline {subsubsection}{DFD Detalhado - Processo de Venda}{42}{section*.98}%
+\contentsline {paragraph}{Atendimento ao Cliente}{42}{section*.99}%
+\contentsline {paragraph}{Apresentação das Motos Disponíveis}{42}{section*.100}%
+\contentsline {paragraph}{Registro dos Dados do Cliente}{42}{section*.101}%
+\contentsline {paragraph}{Registro da Venda}{42}{section*.102}%
+\contentsline {subsubsection}{Conclusão}{42}{section*.103}%
+\contentsline {subsection}{\numberline {4.2.2}Refinamento do Diagrama Entidade-Relacionamento (E-R)}{43}{subsection.4.2.2}%
+\contentsline {subsubsection}{Entidades}{43}{section*.104}%
+\contentsline {paragraph}{Cliente}{43}{section*.105}%
+\contentsline {paragraph}{Venda}{43}{section*.106}%
+\contentsline {paragraph}{Moto}{43}{section*.107}%
+\contentsline {subsubsection}{Relacionamentos:}{43}{section*.108}%
+\contentsline {paragraph}{Relacionamento entre Cliente e Venda}{43}{section*.109}%
+\contentsline {paragraph}{Relacionamento entre Venda e Moto}{43}{section*.110}%
+\contentsline {subsubsection}{Conclusão}{43}{section*.111}%
+\contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{44}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{44}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{44}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{44}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Projeto de Interface}{44}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{45}{chapter.5}%
+\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{47}{chapter*.112}%
 \contentsfinish 
