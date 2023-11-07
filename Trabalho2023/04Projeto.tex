@@ -105,14 +105,16 @@ A equipe do projeto é composta por desenvolvedores de software, analistas de ne
 
 A estratégia do projeto estabelecida visa cumprir os objetivos e fornecer um sistema de alta qualidade que atenda às necessidades das concessionárias e clientes. A próxima seção abordará os requisitos detalhados do sistema.
 
-
 \section{Refinamento dos Diagramas DFD e E-R}
 
 Nesta seção, realizaremos o refinamento dos Diagramas de Fluxo de Dados (DFD) e dos Diagramas de Entidade-Relacionamento (E-R) que descrevem o processo de venda na concessionária de motos. Essas representações visuais são essenciais para compreender e aprimorar o processo, facilitando o desenvolvimento do sistema que atenderá às necessidades dos funcionários da concessionária e dos clientes.
 
-\subsection{Refinamento dos Diagramas DFD}
+\subsection{Refinamento do Diagrama DFD}
 
 Os DFDs são ferramentas essenciais para visualizar e analisar o fluxo de informações e as interações envolvidas em cada etapa do processo de venda. Começaremos refinando os DFDs.
+
+
+
 
 \subsubsection{DFD de Alto Nível - Processo de Venda}
 
@@ -168,6 +170,13 @@ Nesta etapa final, o funcionário registra a venda, incluindo os detalhes da mot
 	\item \textbf{Estoque Atualizado}: Reflete as mudanças no estoque da concessionária após a venda.
 \end{itemize}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{diagrama-vendas.png}
+	\caption{Diagrama de Fluxo de Dados}
+	\label{fig:Diagrama de Fluxo de Dados}
+\end{figure}
+
 \subsubsection{Conclusão}
 
 O refinamento dos Diagramas de Fluxo de Dados fornece uma visão mais detalhada do processo de venda na concessionária de motos. Essas representações visuais são essenciais para compreender e aprimorar o processo, facilitando o desenvolvimento do sistema que atenderá às necessidades dos funcionários da concessionária e dos clientes.
@@ -175,6 +184,8 @@ O refinamento dos Diagramas de Fluxo de Dados fornece uma visão mais detalhada 
 \subsection{Refinamento do Diagrama Entidade-Relacionamento (E-R)}
 
 Nesta seção, iremos aprimorar o Diagrama Entidade-Relacionamento (E-R) para modelar as entidades Cliente, Venda e Moto, juntamente com seus atributos e relacionamentos.
+
+
 
 \subsubsection{Entidades}
 
@@ -225,14 +236,16 @@ Há um relacionamento entre a entidade "Cliente" e "Venda," com uma cardinalidad
 
 Há um relacionamento entre a entidade "Venda" e "Moto," também com uma cardinalidade de 1 para N. Isso significa que uma venda pode incluir várias motos, mas cada moto está associada a apenas uma venda. Este relacionamento é representado pela chave estrangeira "IDMoto" na entidade "Venda."
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{banco-de-dados.png}
+	\caption{Diagrama de Entidade-Relacionamento (E-R)}
+	\label{fig:Diagrama de Banco de Dados}
+\end{figure}
+
 \subsubsection{Conclusão}
 
 O refinamento do Diagrama Entidade-Relacionamento proporciona uma representação visual mais detalhada das entidades, atributos e relacionamentos do sistema de gerenciamento de concessionárias de motos. Isso auxiliará no desenvolvimento do banco de dados e na compreensão das interações entre os componentes do sistema.
-
-
-
-
-
 
 
 \section{Arquitetura do Sistema - Estilos}
