@@ -250,18 +250,91 @@ O refinamento do Diagrama Entidade-Relacionamento proporciona uma representaçã
 
 \section{Arquitetura do Sistema - Estilos}
 
-    Utilize o PowerPoint para fazer a arquitetura(s) do sistema!!!
 
     \subsection{Arquitetura do Sistema}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{diagrama1.png}
+	\caption{Arquitetura do Sistema}
+	\label{fig:diagrama1}
+\end{figure}
+
+Neste exemplo, as setas indicam que o Cliente envia solicitações para o Servidor de Aplicação, que, por sua vez, interage com o Banco de Dados para buscar ou modificar informações. As setas indicam a direção do fluxo de comunicação entre os componentes, e representam a troca de informações ou requisições entre os componentes.
+
+\subsubsection{Cliente}
+
+O componente Cliente representa as interfaces de usuário, como aplicativos móveis ou navegadores, que interagem diretamente com o sistema. Ele envia solicitações para o Servidor de Aplicação e exibe as informações recebidas aos usuários.
+
+\subsubsection{Servidor de Aplicação}
+
+ O Servidor de Aplicação é responsável por processar as solicitações dos clientes, gerenciar a lógica de negócios e coordenar as interações com o Banco de Dados. Ele recebe as requisições do Cliente, realiza operações necessárias e envia as respostas de volta.
+
+\subsubsection{Banco de Dados}
+
+O Banco de Dados armazena e gerencia os dados do sistema. Ele recebe instruções do Servidor de Aplicação para recuperar, modificar ou adicionar informações. Isso garante a persistência e integridade dos dados do sistema.
 
 
     \subsection{Arquitetura do Hardware}
 
+\subsubsection{Servidor Web}
+
+\textbf{Descrição:} Responsável por hospedar e servir a aplicação web. \\
+\textbf{Hardware:} Servidor físico de alta capacidade. \\
+\textbf{Software:} Servidor web (por exemplo, Apache, Nginx).
+
+\subsubsection{Servidor de Banco de Dados}
+
+\textbf{Descrição:} Armazena e gerencia os dados da aplicação. \\
+\textbf{Hardware:} Servidor dedicado para banco de dados. \\
+\textbf{Software:} Sistema de gerenciamento de banco de dados (por exemplo, MySQL, PostgreSQL).
+
+\subsubsection{Dispositivo de Cliente}
+
+\textbf{Descrição:} Dispositivo usado pelos usuários para acessar a aplicação. \\
+\textbf{Hardware:} Pode ser um computador, laptop, tablet ou smartphone. \\
+\textbf{Software:} Navegador web para acessar a aplicação.
+
+\subsubsection{Conexões}
+
+\begin{itemize}
+	\item O Dispositivo de Cliente se conecta ao Servidor Web para acessar a aplicação.
+	\item O Servidor Web se conecta ao Servidor de Banco de Dados para recuperar ou armazenar dados necessários.
+\end{itemize}
+
+\subsubsection{Fluxo de Dados}
+
+\begin{itemize}
+	\item O Cliente faz uma solicitação ao Servidor Web para acessar a aplicação.
+	\item O Servidor Web processa a solicitação e, se necessário, interage com o Servidor de Banco de Dados para obter dados.
+	\item O Servidor Web envia a resposta de volta ao Cliente.
+\end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{diagrama2.png}
+	\caption{Arquitetura do Hardware}
+	\label{fig:diagrama1}
+\end{figure}
+
 
     \subsection{Arquitetura de Software}
 
+O diagrama de software apresenta a estrutura fundamental do Sistema de Gerenciamento de Concessionária de Motos, destacando os principais componentes de software e suas interações. A seguir, descrevemos cada componente:
 
-\section{Projeto de Interface}
+\begin{itemize}
+	\item \textbf{Sistema de Gerenciamento de Concessionária de Motos:} Representa o sistema como um todo, englobando todas as camadas.
+	
+	\item \textbf{Aplicação Web (Frontend):} Responsável pela interface do usuário, proporcionando uma experiência interativa. Utiliza tecnologias como HTML, CSS, JavaScript, React, Angular, entre outras.
+	
+	\item \textbf{Servidor de Aplicação (Backend):} Gerencia a lógica de negócios e processa as solicitações do cliente. Implementado com tecnologias como Node.js, Django, Flask, Spring, entre outras.
+	
+	\item \textbf{Banco de Dados:} Armazena e gerencia os dados do sistema, garantindo persistência. Utiliza um sistema de gerenciamento de banco de dados (SGBD) como MySQL, PostgreSQL, ou outro.
+\end{itemize}
 
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{diagrama3.png}
+	\caption{Arquitetura de Software}
+	\label{fig:diagrama1}
+\end{figure}

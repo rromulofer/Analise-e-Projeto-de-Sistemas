@@ -167,10 +167,17 @@
 \contentsline {paragraph}{Relacionamento entre Venda e Moto}{44}{section*.110}%
 \contentsline {subsubsection}{Conclusão}{44}{section*.111}%
 \contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{44}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{45}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{44}{subsection.4.3.1}%
+\contentsline {subsubsection}{Cliente}{45}{section*.112}%
+\contentsline {subsubsection}{Servidor de Aplicação}{45}{section*.113}%
+\contentsline {subsubsection}{Banco de Dados}{45}{section*.114}%
 \contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{45}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{45}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Projeto de Interface}{45}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{47}{chapter.5}%
-\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{49}{chapter*.112}%
+\contentsline {subsubsection}{Servidor Web}{45}{section*.115}%
+\contentsline {subsubsection}{Servidor de Banco de Dados}{45}{section*.116}%
+\contentsline {subsubsection}{Dispositivo de Cliente}{46}{section*.117}%
+\contentsline {subsubsection}{Conexões}{46}{section*.118}%
+\contentsline {subsubsection}{Fluxo de Dados}{46}{section*.119}%
+\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{46}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{49}{chapter.5}%
+\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{51}{chapter*.120}%
 \contentsfinish 
