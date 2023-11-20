@@ -168,16 +168,18 @@
 \contentsline {subsubsection}{Conclusão}{44}{section*.111}%
 \contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{44}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{44}{subsection.4.3.1}%
-\contentsline {subsubsection}{Cliente}{45}{section*.112}%
-\contentsline {subsubsection}{Servidor de Aplicação}{45}{section*.113}%
-\contentsline {subsubsection}{Banco de Dados}{45}{section*.114}%
 \contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{45}{subsection.4.3.2}%
-\contentsline {subsubsection}{Servidor Web}{45}{section*.115}%
-\contentsline {subsubsection}{Servidor de Banco de Dados}{45}{section*.116}%
-\contentsline {subsubsection}{Dispositivo de Cliente}{46}{section*.117}%
-\contentsline {subsubsection}{Conexões}{46}{section*.118}%
-\contentsline {subsubsection}{Fluxo de Dados}{46}{section*.119}%
+\contentsline {subsubsection}{Servidor Web}{45}{section*.117}%
+\contentsline {subsubsection}{Servidor de Banco de Dados}{46}{section*.118}%
+\contentsline {subsubsection}{Dispositivo de Cliente}{46}{section*.119}%
+\contentsline {subsubsection}{Conexões}{46}{section*.120}%
+\contentsline {subsubsection}{Fluxo de Dados}{46}{section*.121}%
 \contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{46}{subsection.4.3.3}%
 \contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{49}{chapter.5}%
-\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{51}{chapter*.120}%
+\contentsline {section}{\numberline {5.1}Problemas Enfrentados e Desafios Superados}{49}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Resumo do Trabalho Desenvolvido}{49}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Aspectos Não Considerados e Possíveis Estudos Futuros}{50}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Reflexão sobre o Trabalho}{50}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Conclusão}{50}{section.5.5}%
+\contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{51}{chapter*.122}%
 \contentsfinish 

@@ -260,20 +260,28 @@ O refinamento do Diagrama Entidade-Relacionamento proporciona uma representaçã
 	\label{fig:diagrama1}
 \end{figure}
 
-Neste exemplo, as setas indicam que o Cliente envia solicitações para o Servidor de Aplicação, que, por sua vez, interage com o Banco de Dados para buscar ou modificar informações. As setas indicam a direção do fluxo de comunicação entre os componentes, e representam a troca de informações ou requisições entre os componentes.
-
-\subsubsection{Cliente}
-
-O componente Cliente representa as interfaces de usuário, como aplicativos móveis ou navegadores, que interagem diretamente com o sistema. Ele envia solicitações para o Servidor de Aplicação e exibe as informações recebidas aos usuários.
-
-\subsubsection{Servidor de Aplicação}
-
- O Servidor de Aplicação é responsável por processar as solicitações dos clientes, gerenciar a lógica de negócios e coordenar as interações com o Banco de Dados. Ele recebe as requisições do Cliente, realiza operações necessárias e envia as respostas de volta.
-
-\subsubsection{Banco de Dados}
-
-O Banco de Dados armazena e gerencia os dados do sistema. Ele recebe instruções do Servidor de Aplicação para recuperar, modificar ou adicionar informações. Isso garante a persistência e integridade dos dados do sistema.
-
+	O diagrama de arquitetura do sistema é composto por cinco componentes principais, cada um desempenhando um papel crucial no funcionamento da aplicação.
+	
+	\subsubsection*{1. Interface do Usuário (UI)}
+	
+	A \textbf{Interface do Usuário} é responsável pela interação direta com os usuários. Ela fornece uma interface amigável, permitindo que os usuários realizem ações como pesquisar motos, gerenciar clientes, e outras interações relacionadas.
+	
+	\subsubsection*{2. Lógica de Aplicação}
+	
+	A \textbf{Lógica de Aplicação} contém as regras de negócio e a lógica de processamento. Ela recebe solicitações da interface do usuário, processa essas solicitações e interage com o banco de dados para recuperar ou atualizar informações conforme necessário.
+	
+	\subsubsection*{3. Banco de Dados}
+	
+	O \textbf{Banco de Dados} armazena informações cruciais, incluindo dados de clientes, detalhes de vendas e informações de estoque. A conexão bidirecional com a lógica de aplicação permite a recuperação e atualização eficiente desses dados.
+	
+	\subsubsection*{4. Serviços Externos}
+	
+	Os \textbf{Serviços Externos} representam integrações com serviços externos, como sistemas de pagamento. Essas integrações são gerenciadas pela lógica de aplicação, permitindo uma interação suave com serviços externos.
+	
+	\subsubsection*{5. Módulo de Relatórios}
+	
+	O \textbf{Módulo de Relatórios} é responsável por gerar relatórios sobre vendas, estoque, desempenho, entre outros aspectos. Ele pode se conectar à lógica de aplicação para obter os dados necessários para a geração de relatórios.
+	
 
     \subsection{Arquitetura do Hardware}
 
